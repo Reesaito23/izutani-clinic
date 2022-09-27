@@ -1,0 +1,40 @@
+.c-second-opinion{
+  background-color: rgba($color: #887660, $alpha: 0.06);
+  padding: 30px 0;
+  @include mq('desktop'){
+    padding: 60px 0;
+  }
+  &__block{
+    @include mq('desktop'){
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+  }
+  &__image{
+    @include mq('desktop'){
+      width: 45%;
+    }
+  }
+  &__textblock{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 0;
+    }
+  }
+  &__title{
+    font-size: 16px;
+    @include mq('desktop'){
+      font-size: 19px;
+    }
+  }
+  &__text{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 2;
+    @include mq('desktop'){
+      margin-top: 16px;
+        font-size: 14px;
+    }
+  }
+}

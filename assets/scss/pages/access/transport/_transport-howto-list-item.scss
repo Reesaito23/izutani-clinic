@@ -1,0 +1,25 @@
+.transport-howto-list-item{
+  &__text{
+    font-size: 12px;
+    margin-top: 20px;
+    @include mq('desktop'){
+      font-size: 14px;
+    }
+  }
+  &:not(:last-child){
+    .transport-howto-list-item__image{
+      position: relative;
+      &::after {
+          content: url("../image/access/transport/arrow-right--brown.png");
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%)translateX(100%)scale(.6);
+          right: -5px;
+          @include mq('desktop'){
+            right: -10px;
+            transform: translateY(-50%)translateX(100%)scale(1);
+          }
+        }
+    }
+  }
+}

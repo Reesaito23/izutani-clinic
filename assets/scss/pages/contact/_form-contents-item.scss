@@ -1,0 +1,94 @@
+.form-contents-item{
+  @include mq('desktop'){
+    display: flex;
+    align-items: center;
+
+  }
+  &__label{
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+    @include mq('desktop'){
+      margin: 0;
+      width: 30%;
+    }
+    span{
+      margin-left: 8px;
+      display: inline-block;
+      padding: 5px 5px;
+      background-color: #887660;
+      color: #fff;
+      font-size: 12px;
+      @include mq('desktop'){
+
+      }
+    }
+  }
+  &__block{
+    @include mq('desktop'){
+      width: 70%;
+    }
+  }
+  &:not(:first-child){
+    margin-top: 30px;
+  }
+  &-reserve{
+    align-items: initial;
+    @include mq('desktop'){
+      .form-contents-item__label{
+        padding-top: 1em;
+      }
+    }
+    &__block{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      &:not(:first-child){
+        margin-top: 14px;
+      }
+      p:first-child{
+        width: 100%;
+        font-size: 14px;
+        @include mq('desktop'){
+          font-size: initial;
+          width: auto;
+        }
+      }
+    }
+    &__text{
+      font-size: 12px;
+      margin-top: 12px;
+      color: #A39584;
+      @include mq('desktop'){
+        font-size: 14px;
+        margin-top: 14px;
+      }
+    }
+  }
+  &-reply{
+    align-items: initial;
+    @include mq('desktop'){
+      .form-contents-item__label {
+          padding-top: .3em;
+        }
+    }
+&__text {
+  font-size: 12px;
+  margin-top: 12px;
+  color: #A39584;
+  @include mq('desktop'){
+    font-size: 14px;
+      margin-top: 14px;
+  }
+}
+  }
+  &-request{
+    align-items: initial;
+    @include mq('desktop'){
+      label {
+        padding-top: .3em;
+      }
+    }
+  }
+}

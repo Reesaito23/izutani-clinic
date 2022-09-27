@@ -1,0 +1,14 @@
+.pride-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  &__item{
+    flex: 1 1 100%;
+    padding: 40px 10% 30px;
+    border: 1px solid #887660;
+    @include mq('desktop'){
+      flex: 1 1 20%;
+      padding: 70px 2% 50px;
+    }
+  }
+}

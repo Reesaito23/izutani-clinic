@@ -1,0 +1,24 @@
+.pride{
+  margin-top: 100px;
+  overflow: hidden;
+  
+  @include mq('desktop') {
+    margin-top: 200px;
+  }
+  &__title{
+    position: relative;
+    &::after{
+      content: "Pride";
+    }
+  }
+  &__list{
+    margin-top: 80px;
+    @include mq('desktop'){
+      margin-left: auto;
+      margin-right: 0;
+      margin-top: 200px;
+      width: 95%;
+      min-width: 672px;
+    }
+  }
+}

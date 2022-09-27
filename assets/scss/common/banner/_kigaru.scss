@@ -1,0 +1,93 @@
+.c-kigaru{
+  background-color: #9D8C78;
+  color: #FFFFFF;
+  padding: 30px 0;
+text-align: center;
+@include mq('desktop'){
+  padding: 60px 0;
+}
+  &__title{
+    font-size: 20px;
+    @include mq('desktop'){
+      font-size: 26px;
+    }
+  }
+  &__text{
+    margin-top: 10px;
+    font-size: 12px;
+    @include mq('desktop'){
+        font-size: 16px;
+    }
+  }
+  &__block{
+    @include mq('desktop'){
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__tel{
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 0;
+    border-bottom: 1px solid #E5DCCF;
+    @include mq('desktop'){
+      border-right: 1px solid #E5DCCF;
+      border-bottom: initial;
+      justify-content: flex-end;
+      font-size: 40px;
+      width: 50%;
+      padding: 0 5% 0 0;
+    }
+    img{
+      width: 26px;
+      margin-right: 10px;
+      @include mq('desktop'){
+        width: 30px;
+        margin-right: 16px;
+      }
+    }
+  }
+  &__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5%;
+    font-size: 14px;
+    background-color: rgba($color: #887660, $alpha: 0.36);
+    border-radius: 40px;
+    position: relative;
+    margin: 20px 0;
+    @include mq('desktop'){
+      margin: 10px 5%;
+      width: 40%;
+      font-size: 16px;
+    }
+    img{
+      width: 12px;
+        margin-right: 5px;
+        @include mq('desktop'){
+          width: 14px;
+        }
+    }
+    &::after{
+      position: absolute;
+        content: url("../image/common/arrow-right--white.svg");
+        right: 20px;
+        top: 55%;
+        transform: translateY(-50%) scale(0.8);
+    }
+  }
+  &__time{
+    margin-top: 20px;
+    background-color: #A39584;
+    font-size: 12px;
+    padding: 20px 0;
+    @include mq('desktop'){
+      font-size: 18px;
+    }
+  }
+
+}

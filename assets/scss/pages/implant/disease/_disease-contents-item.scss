@@ -1,0 +1,19 @@
+.disease-contents-item{
+  &__image{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mq('desktop'){
+      width: 95%;
+    }
+  }
+  &__text{
+    text-align: center;
+    padding: 0 5%;
+    margin-top: 10px;
+    font-size: 12px;
+    @include mq('desktop'){
+      font-size: 14px;
+    }
+  }
+}

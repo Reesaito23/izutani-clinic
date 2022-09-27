@@ -1,0 +1,14 @@
+.map-contents{
+  text-align: center;
+  &__text{
+    font-size: 18px;
+    @include mq('desktop'){
+      font-size: 22px;
+    }
+  }
+  &__image{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}

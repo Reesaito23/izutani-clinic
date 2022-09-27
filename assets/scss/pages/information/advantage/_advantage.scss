@@ -1,0 +1,6 @@
+.advantage{
+  margin-top: 80px;
+  @include mq('desktop'){
+    margin-top: 120px;
+  }
+}

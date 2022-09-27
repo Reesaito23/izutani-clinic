@@ -1,0 +1,31 @@
+.transport-map-textarea{
+  line-height: 2;
+  margin-top: 20px;
+  text-align: center;
+  @include mq('desktop'){
+    margin-top: 0;
+    text-align: initial;
+  }
+  &__time{
+    font-size: 16px;
+    @include mq('desktop'){
+      font-size: 18px;
+    }
+  }
+  &__train{
+    margin-top: 30px;
+    font-size: 12px;
+    @include mq('desktop'){
+    margin-top: 5vw;
+      font-size: 13px;
+    }
+    span{
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+      @include mq('desktop'){
+        font-size: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.pros-message{
+  text-align: center;
+  &__title{
+    font-size: 18px;
+    @include mq('desktop'){
+      font-size: 30px;
+    }
+  }
+  &__pre-text{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 2;
+    @include mq('desktop'){
+      margin-top: 30px;
+        font-size: 18px;
+    }
+  }
+  &__recommend{
+    margin-top: 30px;
+    @include mq('desktop'){
+      margin-top: 80px;
+    }
+  }
+  &__can{
+    margin-top: 30px;
+    @include mq('desktop'){
+      margin-top: 80px;
+    }
+  }
+}

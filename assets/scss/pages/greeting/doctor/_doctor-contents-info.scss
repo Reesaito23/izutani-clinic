@@ -1,0 +1,38 @@
+.doctor-contents-info{
+  &__label{
+    font-size: 14px;
+    .en{
+      font-size: 12px;
+    }
+  }
+  &__name{
+    font-size: 32px;
+    margin-top: .8em;
+    padding-bottom: .6em;
+    border-bottom: 1px solid rgba($color: #887660, $alpha: 0.1);
+    @include mq('desktop'){
+      margin-top: .5em;
+    }
+    &-label{
+      font-size: .5em;
+      margin-right: 2%;
+    }
+    .en{
+      font-size: .5em;
+    }
+  }
+  .en{
+    display: block;
+    @include mq('desktop'){
+      display: initial;
+      margin-left: 4%;
+    }
+  }
+  &__wrap{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 30px;
+      display: flex;
+    }
+  }
+}

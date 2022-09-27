@@ -1,0 +1,15 @@
+.advantage-list-item{
+  &__imagearea{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    @include mq('desktop'){
+      margin-top: 80px;
+    }
+    img{
+      width: calc(98% / 3);
+    }
+  }
+}

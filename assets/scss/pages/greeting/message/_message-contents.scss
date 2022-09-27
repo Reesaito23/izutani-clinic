@@ -1,0 +1,38 @@
+.message-contents{
+  @include mq('desktop'){
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block{
+    @include mq('desktop'){
+      width: 36%;
+    }
+  }
+  &__slogan{
+    font-size: 22px;
+    line-height: 1.6em;
+    text-align: center;
+    @include mq('desktop'){
+      margin-left: 14%;
+      font-size: 28px;
+    }
+  }
+  &__image{
+    margin-top: 20px;
+    width: 100%;
+    @include mq('desktop'){
+      margin-top: 40px;
+        margin-left: -5px;
+    }
+  }
+  &__text{
+    line-height: 2em;
+    font-size: 12px;
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 0px;
+      width: 55%;
+        font-size: 16px;
+    }
+  }
+}

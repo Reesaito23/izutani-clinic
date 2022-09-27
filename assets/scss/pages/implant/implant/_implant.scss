@@ -1,0 +1,70 @@
+.implant{
+  padding-top: 100px;
+  overflow: hidden;
+  line-height: 2.2;
+  @include mq('desktop'){
+    padding-top: 260px;
+  }
+  &__title{
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    @include mq('desktop'){
+      font-size: 28px;
+    }
+    &::after{
+      content: "implant";
+      font-size: 80px;
+      bottom: -.7em;
+        right: -5%;
+        position: absolute;
+        color: rgba($color: #887660, $alpha: 0.06);
+        @include mq('desktop') {
+            font-size: 180px;
+            bottom:-.8em;
+            right: -5%;
+          }
+    }
+  }
+  &__pre-text{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    @include mq('desktop'){
+      margin-top: 60px;
+      font-size: 20px;
+    }
+  }
+  &__listarea{
+    margin-top: 60px;
+    @include mq('desktop'){
+      margin-top: 100px;
+    }
+  }
+  &__text{
+    margin-top:40px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.4;
+    @include mq('desktop'){
+      margin-top: 60px;
+      margin-top: 100px;
+      font-size: 22px;
+    }
+  }
+  &__image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    &:nth-of-type(1){
+      @include mq('desktop'){
+        margin-top: 60px;
+      }
+    }
+    &:nth-of-type(2){
+      @include mq('desktop'){
+        margin-top: 50px;
+      }
+    }
+  }
+}

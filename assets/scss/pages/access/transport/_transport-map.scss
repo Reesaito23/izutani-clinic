@@ -1,0 +1,20 @@
+.transport-map{
+  @include mq('desktop'){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__image{
+    img{
+      width: 100%;
+    }
+    @include mq('desktop'){
+      width: 43%;
+    }
+  }
+  &__textarea{
+    @include mq('desktop'){
+     width: 53%;
+    }
+  }
+}

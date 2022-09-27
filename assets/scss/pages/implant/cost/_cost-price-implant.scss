@@ -1,0 +1,13 @@
+.cost-price-implant{
+    &__image{
+      width: 100%;
+        margin-top: 20px;
+      
+        @include mq('desktop') {
+          margin-top: 30px;
+        }
+    }
+    &__list{
+      margin-top: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+#soudan{
+  background-color: rgba($color: #9D8C78, $alpha: 0.04);
+  overflow: hidden;
+}
+.soudan{
+  padding: 60px 0;
+  position: relative;
+  @include mq('desktop'){
+    padding: 80px 0;
+  }
+  &__title{
+    font-size: 22px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 32px;
+    }
+    span{
+      display: block;
+      font-size: .6em;
+      margin-bottom: .5em;
+    }
+  }
+  &__contents{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 30px;
+    }
+  }
+  &::after{
+    @include mq('desktop'){
+      content:"";
+      position: absolute;
+      bottom: 0;
+      right: -30%;
+      width: 50%;
+      height: 400px;
+      background-image: url("../image/toppage/soudan/image-01.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      z-index: -1;
+    }
+  }
+
+}

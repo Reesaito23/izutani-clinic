@@ -1,0 +1,98 @@
+.fv-banner{
+  text-align: center;
+  color: #FFFFFF;
+  @include mq('desktop'){
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6vw 0;
+    background-image: url("../image/common/fv/banner/slide.png");
+  }
+  &__block{
+    background-color: #9D8C78;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: 0;
+    @include mq('desktop'){
+      width: 50%;
+    }
+  }
+  &__title{
+    font-size: 18px;
+    padding-bottom: .5em;
+    position: relative;
+    @include mq('desktop'){
+      font-size: 22px;
+    }
+    &::after{
+      position: absolute;
+      width: 20%;
+      height: 1px;
+      background-color: #E5DCCF;
+      content: "";
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__tel{
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    align-items: center;
+    @include mq('desktop'){
+      font-size: 32px;
+      margin-top: 20px;
+    }
+    img{
+      width: 18px;
+      margin-right: 10px;
+      @include mq('desktop'){
+        width: 30px;
+      }
+    }
+  }
+  &__button{
+    width: 60%;
+    background-color: rgba($color: #887660, $alpha: 0.36);
+    padding: 10px 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    font-size: 14px;
+    max-width: 250px;
+    @include mq('desktop'){
+      padding: 16px 0;
+      min-width: 280px;
+      font-size: 16px;
+      max-width: initial;
+    }
+    img{
+      width: 12px;
+      margin-right: 5px;
+      @include mq('desktop'){
+        width: 16px;
+      }
+    }
+    &::after{
+      position: absolute;
+      content: url("../image/common/arrow-right--white.svg");
+      right: 20px;
+      top: 55%;
+      transform: translateY(-50%)scale(.8);
+    }
+  }
+  &__time{
+    font-size: 14px;
+    margin-top: 14px;
+    @include mq('desktop'){
+      font-size: 16px;
+        margin-top: 20px;
+    }
+  }
+}

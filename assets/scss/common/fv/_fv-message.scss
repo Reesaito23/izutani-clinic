@@ -1,0 +1,59 @@
+.fv-message{
+  padding-bottom: 20px;
+  @include mq('desktop'){
+    padding-bottom: 36px;
+  }
+  &__title{
+    padding-top: 200px;
+    font-size: 26px;
+    @include mq('desktop'){
+      padding-top: 256px;
+      margin-left: 12.5%;
+      font-size: 45px;
+    }
+    .en{
+      display: block;
+      font-size: .25em;
+      margin-bottom: 20px;
+      @include mq('desktop'){
+        margin-bottom: 32px;
+      }
+    }
+  }
+  &__text{
+    display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    margin-top: 60px;
+    @include mq('desktop'){
+      margin-top: 120px;
+    }
+
+    >*{
+      max-width: 50%;
+      &:nth-child(2){
+        margin-top: 10px;
+        @include mq('desktop'){
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  &__breadcrumb{
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 60px;
+    @include mq('desktop'){
+      margin-left: 12.5%;
+      margin-bottom: 120px;
+    }
+    a{
+      margin-right: 5px;
+      &::after{
+        content: ">";
+        margin-left: 10px;
+      }
+    }
+  }
+}

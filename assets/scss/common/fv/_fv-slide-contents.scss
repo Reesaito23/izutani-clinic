@@ -1,0 +1,36 @@
+.fv-slide-contents{
+  position: relative;
+  margin: 0 !important;
+  .slick-dots{
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    width: auto;
+    @include mq('desktop'){
+      left: 25px;
+    }
+    li{
+      width: auto;
+      height: auto;
+      button{
+        width: 18px;
+          height: 2px;
+          padding: 0;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        @include mq('desktop'){
+          width: 25px;
+            height: 2px;
+        }
+        &:before{
+          content: initial;
+        }
+      }
+      &.slick-active{
+        button{
+          background-color: rgba($color: #fff, $alpha: 1);
+        }
+      }
+    }
+      
+  }
+}

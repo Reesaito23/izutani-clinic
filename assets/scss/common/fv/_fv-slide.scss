@@ -1,0 +1,22 @@
+.fv-slide{
+  position: relative;
+  @include mq('desktop'){
+    display: flex;
+      justify-content: space-between;
+  }
+  &__contents{
+    width: 100%;
+    @include mq('desktop'){
+      width: 84%;
+    }
+  }
+  &__nav{
+    @include mq('desktop'){
+      position: absolute;
+      bottom: 30px;
+      right: 0;
+      width: 75%;
+      max-width: 800px;
+    }
+  }
+}

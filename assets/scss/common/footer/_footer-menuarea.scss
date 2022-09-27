@@ -1,0 +1,23 @@
+.footer-menuarea{
+  text-align: center;
+  @include mq('desktop'){
+    display: flex;
+    align-items: center;
+    text-align: initial;
+  }
+  small{
+    font-size: 10px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 12px;
+        text-align: initial;
+    }
+  }
+  &__nav{
+    padding: 0 5%;
+    @include mq('desktop'){
+      margin-left: 4%;
+      padding: 0;
+    }
+  }
+}

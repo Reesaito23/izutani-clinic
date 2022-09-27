@@ -1,0 +1,68 @@
+.flow-list-item{
+  display: flex;
+  flex-wrap: wrap;
+  &:not(:last-child){
+    .flow-list-item{
+      &__num{
+        &::after {
+            content: "";
+            height: 75%;
+            width: 1px;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #C7BBAB;
+            @include mq('desktop'){
+              height: 80%;
+            }
+          }
+      }
+      &__block{
+        min-height: 250px;
+        padding-bottom: 30px;
+        @include mq('desktop'){
+          min-height: 350px;
+          padding-bottom: 60px;
+        }
+      }
+    }
+  }
+  &__num{
+    font-size: 36px;
+    position: relative;
+    @include mq('desktop'){
+      font-size: 40px;
+    }
+  }
+  &__block{
+    margin-left: 3%;
+    flex: .9;
+  }
+  &__image{
+    width: 100%;
+    margin-left: auto;
+    display: none;
+    @include mq('desktop'){
+      width: 40%;
+      display: block;
+    }
+  }
+
+  &__title{
+    line-height: 2;
+    font-size: 20px;
+    margin-top: 0.3em;
+    @include mq('desktop'){
+      font-size: 22px;
+    }
+  }
+  &__text{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 2;
+  }
+  &__contact-block{
+    margin-top: 20px;
+  }
+}

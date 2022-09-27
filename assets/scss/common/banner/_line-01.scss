@@ -1,0 +1,51 @@
+.c-line-01{
+  border: 1px solid #887660;
+  padding: 20px 5%;
+  position: relative;
+  @include mq('desktop'){
+    max-width: 672px;
+    width: 90%;
+    padding: 30px 5%;
+  }
+  &__title{
+    font-size: 18px;
+    span{
+      font-size: 22px;
+    }
+  }
+  &__text{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px 0;
+    @include mq('desktop'){
+      font-size: 16px;
+      padding: 0;
+      background-color: initial;
+    }
+  }
+  &__attention{
+    padding: 10px 20px;
+    background-color: rgba($color: #F2EFEA, $alpha: 0.8);
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+    display: inline-block;
+    @include mq('desktop'){
+      background-color: rgba($color: #887660, $alpha: 0.08);
+      font-size: 14px;
+    }
+  }
+  &::after{
+    content: url("../image/common/banner/line/image.png");
+    position: absolute;
+    bottom: -4px;
+      right: 0;
+      transform: scale(0.5);
+      transform-origin: right bottom;
+      z-index: -1;
+      @include mq('desktop'){
+        transform: scale(0.7);
+        bottom: -6px;
+      }
+  }
+}

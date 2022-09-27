@@ -1,0 +1,76 @@
+.worry{
+  margin-top: 100px;
+  overflow: hidden;
+  @include mq('desktop'){
+    margin-top: 200px;
+  }
+  &__wrap{
+    display: flex;
+    flex-direction: column;
+    @include mq('desktop'){
+      justify-content: space-between;
+      flex-direction: initial;
+    }
+    &:not(:first-child){
+      margin-top: 100px;
+      @include mq('desktop'){
+        margin-top: 200px;
+      }
+    }
+    &:nth-of-type(2){
+      position: relative;
+      &::before {
+          content: "";
+          position: absolute;
+          background-image: url("../image/toppage/worry/background-image01.png");
+          width: 100%;
+          height: 100%;
+          top: 0px;
+          left: 200px;
+          z-index: -1;
+          background-size: cover;
+            background-position: right bottom;
+        }
+    }
+  }
+  &__titlearea{
+    @include mq('desktop'){
+      width: 45%;
+    }
+  }
+  &__image{
+    margin-top: 20px;
+    @include mq('desktop') {
+        width: 50%;
+        margin-top: 0;
+      }
+    &-second{
+      margin-top: 100px;
+      position: relative;
+      @include mq('desktop'){
+        margin-top: 100px;
+          width: 45%;
+      }
+    }
+  }
+  &__contentarea{
+    position: relative;
+    @include mq('desktop') {
+        width: 50%;
+      }
+      &::before{
+        content: url("../image/toppage/worry/background-image02.png");
+        position: absolute;
+        top: -1100px;
+          left: -1000px;
+          z-index: -1;
+      }
+            &::after {
+              content: url("../image/toppage/worry/background-image03.png");
+              position: absolute;
+              top: -900px;
+                left: -1000px;
+                z-index: -1;
+            }
+  }
+}

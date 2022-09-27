@@ -1,0 +1,56 @@
+.form{
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  @include mq('desktop'){
+    margin-top: 200px;
+  }
+  &__title{
+    &::after{
+      content: "contact";
+    }
+  }
+  &__pre{
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.2;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #C7BBAB;
+    @include mq('desktop'){
+      margin-top: 100px;
+      padding-bottom: 60px;
+      font-size: 18px;
+    }
+  }
+  &__contents{
+    margin-top: 60px;
+    @include mq('desktop'){
+      margin-top: 100px;
+    }
+  }
+  &__button{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    background-color: #887660;
+    border-radius: 40px;
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    @include mq('desktop'){
+      width: 40%;
+      padding: 14px 0;
+    }
+    &::after{
+      position: absolute;
+        content: url(../image/common/arrow-right--white.svg);
+        right: 20px;
+        top: 55%;
+        transform: translateY(-50%) scale(0.8);
+    }
+  }
+}

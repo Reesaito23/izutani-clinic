@@ -1,0 +1,19 @@
+.worry-titlearea{
+  &__title{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5DCCF;
+    @include mq('desktop'){
+      font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+  &__text{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 30px;
+    }
+  }
+}

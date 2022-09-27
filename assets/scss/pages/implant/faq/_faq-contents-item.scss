@@ -1,0 +1,67 @@
+.faq-contents-item{
+  &__wrap{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 50px 10px 4%;
+    @include mq('desktop'){
+      padding: 14px 30px 14px 5%;
+    }
+  }
+  &__label{
+    font-size: 16px;
+    margin-right: 10px;
+    @include mq('desktop'){
+      font-size: 22px;
+      margin-right: 20px;
+    }
+  }
+  &__text{
+    font-size: 14px;
+    line-height: 1.8;
+    @include mq('desktop'){
+      font-size: 18px;
+    }
+  }
+  &__question{
+    background-color: rgba($color: #887660, $alpha: 0.06);
+    position: relative;
+    &::after{
+      content: url("../image/implant/faq/plus.svg");
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-40%)scale(.6);
+      @include mq('desktop'){
+        transform: translateY(-40%)scale(.8);
+      }
+    }
+  }
+  &__answer{
+    transition: .3s;
+    height: 0;
+    opacity: 0;
+    padding: 0px 50px 0px 4%;
+    @include mq('desktop'){
+      padding: 0px 30px 0px 5%;
+    }
+  }
+  &.is-active{
+    .question{
+      &::after {
+          content: url("../image/implant/faq/minus.svg");
+            transform: translateY(-55%)scale(.6);
+            @include mq('desktop'){
+              transform: translateY(-55%)scale(.8);
+            }
+        }
+    }
+    .answer{
+      height: auto;
+      opacity: 1;
+      padding: 14px 50px 14px 4%;
+      @include mq('desktop'){
+        padding: 14px 30px 14px 5%;
+      }
+    }
+  }
+}

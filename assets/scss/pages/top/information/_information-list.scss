@@ -1,0 +1,43 @@
+.information-list{
+  width: 100%;
+  margin-top: 30px;
+  @include mq('desktop'){
+    width: 60%;
+    margin-top: 0;
+  }
+  &__item{
+    &:first-child{
+      padding-bottom: 20px;
+      @include mq('desktop'){
+        padding-bottom: 38px;
+      }
+    }
+    &:not(:first-child){
+      padding: 20px 0;
+      @include mq('desktop') {
+        padding: 38px 0;
+      }
+    }
+    &:not(:only-child):not(:last-child){
+      border-bottom: 1px solid #E5DCCF;
+    }
+    &-anchor{
+      font-size: 14px;
+      @include mq('desktop'){
+        font-size: 16px;
+          display: flex;
+      }
+    }
+  }
+  &__data{
+    @include mq('desktop'){
+      margin-right: 50px;
+    }
+  }
+  &__title{
+    margin-top: 10px;
+    @include mq('desktop'){
+      margin-top: 0px;
+    }
+  }
+}

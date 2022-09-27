@@ -1,0 +1,41 @@
+.advantage-list-item-textarea{
+  position: relative;
+  line-height: 2;
+  align-items: center;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+  flex-wrap: wrap;
+  display: flex;
+  @include mq('desktop'){
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 0;
+  }
+  &__num{
+    font-size: 100px;
+    position: absolute;
+    top: -.9em;
+    left: 0em;
+    color: rgba($color: #887660, $alpha: 0.1);
+    @include mq('desktop'){
+      font-size: 160px;
+      top: -.7em;
+        left: -.6em;
+    }
+  }
+  &__title{
+    font-size: 20px;
+    @include mq('desktop'){
+      font-size: 30px;
+    }
+  }
+  &__text{
+    font-size: 12px;
+    margin-top: 20px;
+    flex: 1 1 100%;
+    @include mq('desktop'){
+      flex: 1 1 50%;
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.flow-list-item-contact{
+  background-color: rgba($color: #887660, $alpha: 0.06);
+  padding: 20px 3% 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mq('desktop'){
+    padding: 30px 5% 40px;
+  }
+  &__tel{
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+    @include mq('desktop'){
+      font-size: 24px;
+    }
+    img{
+      width: 18px;
+      margin-right: 5px;
+      @include mq('desktop'){
+        width: 24px;
+      }
+    }
+  }
+  &__button{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    display: flex;
+    padding: 10px 0;
+    color: #FFFFFF;;
+    justify-content: center;
+    border-radius: 40px;
+    position: relative;
+    align-items: center;
+    @include mq('desktop'){
+      font-size: 20px;
+      width: 90%;
+    }
+    &::after {
+        position: absolute;
+        content: url("../image/common/arrow-right--white.svg");
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+      }
+    img{
+      margin-right: 5px;
+    }
+    &-form{
+      background-color: #887660;
+    }
+    &-line{
+      background-color: #699D69;
+    }
+    &:not(:first-of-type){
+      margin-top: 8px;
+      @include mq('desktop'){
+        margin-top: 10px;
+      }
+    }
+  }
+}

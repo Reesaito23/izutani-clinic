@@ -1,0 +1,23 @@
+.fv-slide-scroll{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  &__text{
+  writing-mode: vertical-rl;
+  padding: 0 14px;
+  position: relative;
+  margin-bottom: calc(25px + 178px);
+  &::after{
+    content: "";
+    height: 178px;
+    width: 1px;
+    background-color: #E5DCCF;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+  }
+}

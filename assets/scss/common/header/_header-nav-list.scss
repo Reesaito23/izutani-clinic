@@ -1,0 +1,26 @@
+.header-nav-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @include mq('desktop'){
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item{
+    text-align: center;
+    @include mq('desktop'){
+      text-align: initial;
+    }
+    &:not(:first-child){
+      @include mq('desktop'){
+        margin-left: 10px;
+      }
+    }
+    a{
+      font-size: 12px;
+      padding: 5px;
+      @include mq('desktop'){
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1440px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header{
+  &__block{
+    padding-top: 20px;
+    @include mq('desktop'){
+      padding-top: 54px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+  }
+  &__logo{
+    width: 100%;
+    @include mq('desktop'){
+      width: 380px;
+    }
+  }
+  &__nav{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 0;
+    }
+  }
+}

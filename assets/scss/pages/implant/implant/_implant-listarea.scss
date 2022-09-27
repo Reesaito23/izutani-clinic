@@ -1,0 +1,46 @@
+.implant-listarea{
+  background-color: rgba($color: #887660, $alpha: 0.04);
+  padding: 20px 0;
+  @include mq('desktop'){
+    padding: 40px 0;
+  }
+  &__title{
+    text-align: center;
+    font-size: 18px;
+    margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    @include mq('desktop'){
+      font-size: 24px;
+    }
+  }
+  &__list{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 90%;
+    @include mq('desktop'){
+      margin-top: 40px;
+      min-width: 640px;
+      width: 80%;
+    }
+    li{
+      display: flex;
+      font-size: 12px;
+      align-items: flex-start;
+      @include mq('desktop'){
+        font-size: 18px;
+        align-items: center;
+      }
+      &::before{
+        content: url("../image/common/check-list.svg");
+        margin-right: 5px;
+        transform: scale(.6)translateY(-.5em);
+        @include mq('desktop'){
+          margin-right: 10px;
+          transform: scale(.8);
+        }
+      }
+    }
+  }
+}

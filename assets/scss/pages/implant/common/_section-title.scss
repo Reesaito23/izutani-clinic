@@ -1,0 +1,12 @@
+.c-implantPage-section-title{
+  text-align: center;
+  font-size: 20px;
+  @include mq('desktop'){
+    font-size: 30px;
+  }
+  .en{
+    display: block;
+    font-size: 0.6em;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,24 @@
+.faq-contents{
+  >*:not(:first-child){
+    margin-top: 60px;
+  }
+  &__title{
+    font-size: 18px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 22px;
+    }
+  }
+  &__items{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 30px;
+    }
+    >*:not(:first-child){
+      margin-top: 14px;
+      @include mq('desktop'){
+        margin-top: 20px;
+      }
+    }
+  }
+}

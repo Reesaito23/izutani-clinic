@@ -1,0 +1,18 @@
+//冒頭に使うサイズを明記するとわかりやすい
+$sizes: mobile, tablet, desktop, wide;
+
+//ブレイクポイント
+$breakpoint: (
+  "mobile": 0px,
+  // > iPhone Max (Portlait)
+  "tablet": 429px,
+  // > iPad Pro (Portlait)
+  'desktop': 'screen and (min-width: 768px)',
+  "wide": 1200px,
+) !default;
+//mixinを定義（初期値はmd）
+@mixin mq($size: md) {
+  @media #{ map-get( $breakpoint, $size ) } {
+    @content;
+  }
+}

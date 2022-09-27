@@ -1,0 +1,36 @@
+.c-layout{
+  &--lv0{
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &--lv1{
+    width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  &--lv2{
+    width: 87.5%;
+    margin-right: auto;
+      margin-left: auto;
+      .c-layout--lv3{
+        width: 90%;
+        margin-right: auto;
+          margin-left: auto;
+        @include mq('desktop') {
+            width: 70%;
+            min-width: 672px;
+          }
+      }
+  }
+    &--lv3 {
+      width: 87.5%;
+        margin-right: auto;
+        margin-left: auto;
+      @include mq('desktop'){
+        width: 70%;
+        min-width: 672px;
+      }
+    }
+}

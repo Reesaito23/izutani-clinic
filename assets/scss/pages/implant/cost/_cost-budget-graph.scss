@@ -1,0 +1,24 @@
+.cost-budget-graph{
+  @include mq('desktop'){
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start
+  }
+  &__text{
+    font-size: 12px;
+    line-height: 2;
+    @include mq('desktop'){
+      font-size: 14px;
+    }
+  }
+  &__image{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    @include mq('desktop'){
+      width: 35%;
+      margin-top: 0px;
+    }
+  }
+}

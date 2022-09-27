@@ -1,0 +1,22 @@
+.c-section-title{
+  font-size: 28px;
+  @include mq('desktop'){
+    font-size: 36px;
+  }
+  .jp{
+    font-size: 0.4em;
+    display: block;
+  }
+  &::after{
+    font-size: 80px;
+      top: -10px;
+      right: -5%;
+      position: absolute;
+      color: rgba($color: #887660, $alpha: 0.06);
+      @include mq('desktop'){
+        font-size: 180px;
+          top: -60px;
+          right: -5%;
+      }
+  }
+}

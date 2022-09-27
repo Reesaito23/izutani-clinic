@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いずたにデンタルクリニック</title>
+
+    <link rel="stylesheet" href="assets/css/destyle.css">
+    <link rel="stylesheet" href="assets/scss/common.css">
+    <link rel="stylesheet" href="assets/scss/toppage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Slickslider css の読み込み -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Cinzel font / Shippori Mincho 読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Shippori+Mincho:wght@400;500;700&display=swap"
+      rel="stylesheet">
+    <!-- Tailwindcssの読み込み -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Jqueryの読み込み -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+      integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <section id="header">
+        <div class="header__wrap c-layout--lv0">
+          <div class="header__block c-layout--lv1">
+            <a class="header__logo" href="index.html">
+              <img src="assets/image/common/header/logo.png" alt="いずたにデンタルクリニック">
+            </a>
+            <nav class="header__nav header-nav">
+              <ul class="header-nav-list">
+                <li class="header-nav-list__item"><a href="greeting.html">ごあいさつ</a></li>
+                <li class="header-nav-list__item"><a href="information.html">医院紹介</a></li>
+                <li class="header-nav-list__item"><a href="implant.html">インプラント治療</a></li>
+                <li class="header-nav-list__item"><a href="access.html">アクセス</a></li>
+                <li class="header-nav-list__item"><a href="contact.html">お問い合わせ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- fv -->
+    <section id="fv">
+      <div class="fv__block c-layout--lv0">
+          <div class="fv__message fv-message c-layout--lv1">
+            <h1 class="fv-message__title">
+              <span class="en">Our Message</span>
+              すべては患者さまのために<br>満足と幸せと笑顔を
+            </h1>
+            <div class="fv-message__text">
+              <div>
+                <img src="assets/image/common/fv/message/message-text-main.png" alt="">
+              </div>
+              <div>
+                <img src="assets/image/common/fv/message/message-text-sub.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="fv__slide fv-slide c-layout--lv0">
+            <div class="fv-slide__scroll fv-slide-scroll hidden md:flex">
+              <p class="fv-slide-scroll__text">SCROLL DOWN</p>
+            </div>
+            <ul class="fv-slide__contents fv-slide-contents">
+              <li>
+                <img src="assets/image/common/fv/slider/slide-image01.jpg" alt="">
+              </li>
+              <li>
+                <img src="assets/image/common/fv/slider/slide-image02.jpg" alt="">
+              </li>
+              <li>
+                <img src="assets/image/common/fv/slider/slide-image03.jpg" alt="">
+              </li>
+            </ul>
+            <nav class="fv-slide__nav">
+              <ul class="fv-slide-nav-list">
+                <li class="fv-slide-nav-list__item"><a href="http://" target="_blank" rel="noopener noreferrer" class="fv-slide-nav-list__item-anchor">
+                  <div class="fv-slide-nav-list__block">
+                    <img src="assets/image/common/fv/slide-nav/line.svg" alt="">
+                    <p class="fv-slide-nav-list__text">LINE相談</p>
+                  </div>
+                </a></li>
+                <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+                    <p class="fv-slide-nav-list__text-sub">まずは資料請求</p>
+                    <div class="fv-slide-nav-list__block">
+                      <img src="assets/image/common/fv/slide-nav/data.svg" alt="">
+                      <p class="fv-slide-nav-list__text">資料請求はこちら</p>
+                    </div>
+                </a></li>
+                <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+                    <p class="fv-slide-nav-list__text-sub">ご予約・お問い合わせ</p>
+                    <div class="fv-slide-nav-list__block">
+                      <img src="assets/image/common/fv/slide-nav/tel.svg" alt="">
+                      <p class="fv-slide-nav-list__text">079-280-5555</p>
+                    </div>
+                  </a></li>
+                  <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+                      <p class="fv-slide-nav-list__text-sub">24時間受付</p>
+                      <div class="fv-slide-nav-list__block">
+                        <img src="assets/image/common/fv/slide-nav/mail.svg" alt="">
+                        <p class="fv-slide-nav-list__text">ご相談はこちら</p>
+                      </div>
+                    </a></li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </section>
+
+    <!-- information -->
+    <section id="information" class="information c-layout--lv0">
+      <div class="information__block c-layout--lv2">
+        <h2 class="c-section-title information-title">Information<span class="jp">お知らせ</span></h2>
+        <ul class="information__list information-list">
+          <li class="information-list__item">
+            <a href="" class="information-list__item-anchor">
+              <p class="information-list__data">2022.07.01</p>
+              <p class="information-list__title">いずたにデンタルクリニック姫路駅前院は2022年7月1日に開院いたしました。</p>
+            </a>
+          </li>
+          <li class="information-list__item">
+            <a href="" class="information-list__item-anchor">
+              <p class="information-list__data">2022.07.01</p>
+              <p class="information-list__title">いずたにデンタルクリニック姫路駅前院は2022年7月1日に開院いたしました。</p>
+            </a>
+          </li>
+          <li class="information-list__item">
+            <a href="" class="information-list__item-anchor">
+              <p class="information-list__data">2022.07.01</p>
+              <p class="information-list__title">いずたにデンタルクリニック姫路駅前院は2022年7月1日に開院いたしました。</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Worry -->
+    <section id="worry" class="c-layout--lv0 worry">
+      <div class="worry__wrap c-layout--lv2">
+        <div class="worry__titlearea worry-titlearea">
+          <h2 class="worry-titlearea__title">このような事でお困りではないですか？</h2>
+          <div class="worry-titlearea__text worry-titlearea-text">
+            <ul class="worry-titlearea-text__list">
+              <li class="worry-titlearea-text__list-item">歯を失ってしまった</li>
+              <li class="worry-titlearea-text__list-item">入れ歯はイヤ</li>
+              <li class="worry-titlearea-text__list-item">何度作り直しても入れ歯が合わない</li>
+              <li class="worry-titlearea-text__list-item">骨やお身体の問題でインプラント治療を断られた</li>
+            </ul>
+            <div class="worry-titlearea-text__image-arrow">
+              <img src="assets/image/toppage/worry/arrow--down.svg" alt="">
+            </div>
+            <p class="worry-titlearea-text__contents">
+              <span class="pre">やがてそれはお口の中の悩みから人生の悩みへ・・・</span>
+                食事が美味しくできていますか？<br>
+                思い切り笑えていますか？<br>
+                歯が原因で諦めていることがありませんか？ <br>
+                「マスク生活が終わるのがなんだか怖い・・・」
+            </p>
+          </div>
+        </div>
+        <div  class="worry__image">
+          <img src="assets/image/toppage/worry/image-01.png" alt="">
+        </div>
+      </div>
+      <div class="worry__wrap c-layout--lv2">
+        <div class="worry__image worry__image-second hidden md:block">
+          <img src="assets/image/toppage/worry/image-02.png" alt="">
+        </div>
+        <div class="worry__contentarea worry-contentarea">
+          <p class="worry-contentarea__title">
+            <span>いずたにデンタルクリニック姫路駅前院は、、、</span>
+            患者さまのお悩みを改善するための<br>
+            様々な治療プランをご一緒に考えていきます。<br>
+            一人一人の患者さまにとってのベストな治療を行うために、<br>
+            患者様も治療チームの一員と考えています。
+          </p>
+          <p class="worry-contentarea__text">
+            お口の中の状態だけではなく、年齢も生活習慣もすべて千差万別です。<br>
+            特にインプラント治療を検討する患者さまは、自費治療であることや外科処置があることから、ライフスタイルとの調整が必要な患者様も多く来院されます。<br>
+            当医院は、患者様の不安要素をしっかりとお伺いすることから始めることがコンセプトです。患者さまが考える理想の治療と、医療的に必要な治療を患者様と時間をかけてすり合わせを行い、患者様にとって最適な治療を一緒に考えていくことがとても大切な工程と考えております。まずはお気軽にご相談ください。
+          </p>
+          <div class="worry-contentarea__line worry-contentarea-line">
+            <p class="worry-contentarea-line__title"><span>LINE</span>でも<span>治療の相談</span>ができます</p>
+            <p class="worry-contentarea-line__text">「個別相談」の他、「休診日」や「健康に役立つ情報」を配信！</p>
+            <p class="worry-contentarea-line__attention">LINEでの予約変更・キャンセルは承っておりません</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pride -->
+    <section id="pride" class="c-layout--lv0 pride">
+      <div class="pride__block c-layout--lv2">
+        <h2 class="c-section-title pride__title">pride<span class="jp">当院のインプラント治療のこだわり</span></h2>
+        <ol class="pride__list pride-list">
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">01</p>
+            <p class="pride-list-item__title">実績</p>
+            <p class="pride-list-item__text">
+              <span class="pride-list-item__text-bold">10年以上・600症例・<br>1000本以上の実績</span>
+              豊富な経験と実績で安心いただけるインプラント治療を行います。
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">02</p>
+            <p class="pride-list-item__title">価格</p>
+            <p class="pride-list-item__text">
+              <span class="pride-list-item__text-bold">明瞭で分かりやすい<br>料金体系にしております。</span>
+              同部位に対してお出しした御見積から追加料金をいただくことはありません。
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">03</p>
+            <p class="pride-list-item__title">難症例にも対応</p>
+            <p class="pride-list-item__text">
+              <span class="pride-list-item__text-bold">骨がなくてもできないという<br>
+              患者様でも、骨を増やして<br>
+              インプラント治療を<br>
+              行うことができます。</span>
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">04</p>
+            <p class="pride-list-item__title">痛くない</p>
+            <p class="pride-list-item__text">
+              すべての手術を静脈鎮静で行います。<br>
+              麻酔医が立ち合い、<br>
+              全身管理も行いながら行うため<br>
+              とても安心な方法です。
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">05</p>
+            <p class="pride-list-item__title">最新の設備</p>
+            <p class="pride-list-item__text">
+              専門性を高めたトップレベルのインプラント治療を行うために歯科用CT、マイクロスコープ、口腔内スキャナなど最新の設備を備えています。<br>
+              ワンランク上のインプラント治療を行います。
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">06</p>
+            <p class="pride-list-item__title">信頼のおけるメーカーの<br>インプラントを使用</p>
+            <p class="pride-list-item__text">
+              世界的に非常に信用の高いブランド「ストローマン社製のインプラント」を採用しています。決して妥協してはいけないと考えています。患者さんの体内に一生残るものですので、安心で長持ちすることが非常に重要です。
+            </p>
+          </li>
+          <li class="pride-list__item pride-list-item">
+            <p class="pride-list-item__num">07</p>
+            <p class="pride-list-item__title">メンテナンス・保証制度</p>
+            <p class="pride-list-item__text">
+              当院では患者さまに末永く安心と安全を提供するために最長１０年の保証制度を設けています。また定期的なメンテナンスを受けていただく事により一生涯インプラントを保てるようサポートさせていただきます。
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Counseling -->
+    <section class="counseling c-layout--lv0">
+      <img class="counseling__image" src="assets/image/toppage/counseling/image-01.png" alt="">
+      <div class="c-layout--lv2">
+        <div class="counseling__block">
+          <h2 class="counseling__title"><span>インプラント</span>無料カウンセリングを行っております</h2>
+          <p class="counseling__text">
+            患者様にとっては、現状のご自身の状態も分からず不安が沢山おありになると思います。無料カウンセリングでは、ご自身のお口の中の状況が分かるだけではなく、それに対する治療の選択肢や治療費などのすべてわかります。無料カウンセリングを受けると「インプラント治療を必ず当医院で受けなくてはならない」ということはありません。<br>
+            まずは恐れずにご自身の状態をしっかり把握し、選択肢を知ることから始めませんか？
+          </p>
+          <p class="counseling__pre-button">セカンドオピニオンとしてもご活用ください</p>
+          <a href="" class="counseling__button">
+            <span>インプラント</span>無料カウンセリングはこちら
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flow -->
+    <section class="flow c-layout--lv0">
+      <div class="c-layout--lv2">
+        <h2 class="c-section-title flow__title">FLOW<span class="jp">無料カウンセリングの流れ</span></h2>
+        <ol class="flow__list flow-list">
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">01</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">ご予約</p>
+              <p class="flow-list-item__text">電話・メール・ラインにて予約が可能です。</p>
+              <div class="flow-list-item__contact-block flow-list-item-contact">
+                <p class="flow-list-item-contact__tel"><img src="assets/image/toppage/flow/icon-tel.svg" alt="">079-280-5555</p>
+                <a href="" class="flow-list-item-contact__button flow-list-item-contact__button-form">
+                  <img src="assets/image/toppage/flow/icon-email.svg" alt="">ご相談フォーム
+                </a>
+                <a href="" class="flow-list-item-contact__button flow-list-item-contact__button-line">
+                  <img src="assets/image/toppage/flow/icon-line.svg" alt="">LINE相談
+                </a>
+              </div>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-01.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">02</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">ご来院</p>
+              <p class="flow-list-item__text">
+                ご予約させていただいた日時にお越しください。<br>
+                JR姫路駅から南へ徒歩１分のところにあるビルの４階になります。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-02.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">03</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">問診</p>
+              <p class="flow-list-item__text">
+                問診表をご記入いただき、健康状態の確認・現状のお困りごとやご希望を細かくお伺いいたします。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-03.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">04</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">口腔内診査・CT撮影</p>
+              <p class="flow-list-item__text">
+                問診・口腔内診査・レントゲン診査をもとにどのような治療が可能なのかを診断いたします。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-04.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">05</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">診断</p>
+              <p class="flow-list-item__text">
+                インプラントは虫歯になりませんが、天然歯と同様に歯周病になる可能性はあります。<br>
+                装着後は、定期的にメインテナンスを行なうことで、口内の健康を維持しましょう。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-05.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">06</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">お口の状態説明・可能な治療の説明</p>
+              <p class="flow-list-item__text">
+                診査・診断の結果、どのような治療が可能なのかを分かりやすい動画なども使用しながら説明いたします。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-06.png" alt="">
+            </div>
+          </li>
+          <li class="flow-list__item flow-list-item">
+            <p class="flow-list-item__num">07</p>
+            <div class="flow-list-item__block">
+              <p class="flow-list-item__title">費用のシミュレーション</p>
+              <p class="flow-list-item__text">
+                どの治療にどの程度治療費が必要なのかをシミュレーションいたします。デンタルローンも使用できますので、患者さまの予算やライフスタイルにあった治療プランを一緒にお探しいたします。
+              </p>
+            </div>
+            <div class="flow-list-item__image">
+              <img src="assets/image/toppage/flow/image-07.png" alt="">
+            </div>
+          </li>
+        </ol>
+        <p class="flow__text">
+          <span>全部で約１.５時間から２時間のお時間が必要です</span>
+          無料カウンセリングを受けると「インプラント治療を必ず当医院で受けなくてはならない」ということはありません。<br>
+          まずは恐れずにご自身の状態をしっかり把握し、選択肢を知ることから始めませんか？<br>
+          是非当医院の無料カウンセリングをご利用ください。
+        </p>
+      </div>
+    </section>
+
+    <!-- soudan -->
+    <section id="soudan">
+      <div class="c-layout--lv0 soudan">
+        <div class="c-layout--lv3">
+          <h2 class="soudan__title">
+            <span>もっと気軽に</span>
+            LINEでオンライン相談
+          </h2>
+          <div class="soudan__contents soudan-contents">
+            <p class="soudan-contents__text-pre soudan-contents__text">「仕事や日常生活でなかなか時間がとれない……」「もっと気軽に相談したい！！」という声にお答えする為、<br>
+            ＬＩＮＥで時間に関係なくご相談もいただけます。</p>
+            <div class="soudan-contents__line soudan-contents-line">
+              <div class="soudan-contents-line__block">
+                <img src="assets/image/toppage/soudan/QR.png" alt="" class="soudan-contents-line__image">
+                <a href="" class="soudan-contents-line__button">お友だち追加</a>
+              </div>
+              <p class="soudan-contents-line__text">上記のQRコードもしくはスマホの場合は友だち追加をしていただき、<br>
+              トーク画面よりお名前・ご相談内容をお送りください。</p>
+            </div>
+            <p class="soudan-contents__text-attention soudan-contents__text">
+              【ご利用のご注意】<br>
+              ・LINEの返信にはお時間がかかる場合があります。お急ぎの場合はお電話をお願いいたします。<br>
+              ・診察・診断ではなく、症状からの一般的な見解をお答えするものです。実際に来院してからご相談してください。<br>
+              ・内容を確認してから返信いたしますので、既読がついてもすぐに返信となりませんことをご了承ください。
+            </p>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer c-layout--lv0">
+        <div class="footer__infoarea footer-infoarea c-layout--lv2">
+          <div class="footer-infoarea__item footer-infoarea-item footer-infoarea-item-course">
+            <p class="footer-infoarea-item__title">診療科目</p>
+            <div class="footer-infoarea-item__contents">
+              <p class="text">インプラント</p>
+            </div>
+          </div>
+          <div class="footer-infoarea__item footer-infoarea-item footer-infoarea-item-time">
+            <p class="footer-infoarea-item__title">診療時間</p>
+            <div class="footer-infoarea-item__contents">
+              <ul class="footer-infoarea-item-time__list">
+                <li class="footer-infoarea-item-time__item">
+                  10時～17時
+                </li>
+                <li class="footer-infoarea-item-time__item">
+                  <p>火</p>
+                  <div></div>
+                </li>
+                <li class="footer-infoarea-item-time__item">
+                  <p>金</p>
+                  <div></div>
+                </li>
+                <li class="footer-infoarea-item-time__item">
+                  <p>土</p>
+                  <div></div>
+                </li>
+              </ul>
+              <p class="footer-infoarea-item-time__text">診療時間　火・金・土　10:00～17:00</p>
+            </div>
+          </div>
+          <div class="footer-infoarea__item footer-infoarea-item footer-infoarea-item-time-access">
+            <p class="footer-infoarea-item__title">アクセス</p>
+            <div class="footer-infoarea-item__contents">
+              <p class="footer-infoarea-item-time-access__text">〒670-0962　兵庫県姫路市南駅前町96-1　サウスワンビル４階</p>
+              <div class="footer-infoarea-item-time-access__block">
+                <div class="footer-infoarea-item-time-access__item">
+                  <p>JR姫路駅</p>
+                  <p>徒歩<span>1</span>分</p>
+                </div>
+                <div  class="footer-infoarea-item-time-access__item">
+                  <p>山陽姫路駅</p>
+                  <p>徒歩<span>5</span>分</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.21967994805!2d134.6886837153781!3d34.825568784027766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e06d59704887%3A0x33dbf424f09ac9b7!2z44K444On44Km44Kv44Oq44OL44OD44KvIOWnq-i3r-mZog!5e0!3m2!1sja!2stw!4v1663729655656!5m2!1sja!2stw"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="footer__map"></iframe>
+        <div class="footer__menuarea c-layout--2 footer-menuarea">
+          <small>Copyright © 2022 All rights reserved</small>
+          <nav class="footer-menuarea__nav">
+            <ul class="footer-menuarea-nav-list">
+              <li class="footer-menuarea-nav-list__item"><a href="greeting.html">ごあいさつ</a></li>
+              <li class="footer-menuarea-nav-list__item"><a href="information.html">医院紹介</a></li>
+              <li class="footer-menuarea-nav-list__item"><a href="implant.html">インプラント治療</a></li>
+              <li class="footer-menuarea-nav-list__item"><a href="access.html">アクセス</a></li>
+              <li class="footer-menuarea-nav-list__item"><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <a class="footer__logo" href="https://www.senya-implantcenter.com/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/image/common/footer/logo.png" alt="">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.fv-slide__contents').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:true,
+        arrows:false,
+        dots:true,
+        autoplaySpeed:3000,
+        speed:1000,
+      });
+    </script>
+  </body>
+</html>

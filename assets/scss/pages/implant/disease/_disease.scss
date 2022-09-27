@@ -1,0 +1,43 @@
+.disease{
+  padding: 40px 0;
+  @include mq('desktop'){
+    padding: 100px 0;
+  }
+  &__title{
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 28px;
+    }
+  }
+  &__pre{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    @include mq('desktop'){
+      flex-direction: initial;
+      align-items: flex-start;
+      margin-top: 60px;
+    }
+    &-text{
+      font-size: 12px;
+      line-height: 2;
+      @include mq('desktop'){
+        font-size: 14px;
+      }
+    }
+    &-image{
+      @include mq('desktop'){
+        width: 40%;
+      }
+    }
+  }
+  &__contents{
+    margin-top: 30px;
+    @include mq('desktop'){
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.transport-howto{
+  text-align: center;
+  &__title{
+    font-size: 18px;
+    @include mq('desktop'){
+      font-size: 22px;
+    }
+  }
+  &__list{
+    margin-top: 20px;
+  }
+}

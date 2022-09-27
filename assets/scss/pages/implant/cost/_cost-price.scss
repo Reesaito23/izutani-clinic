@@ -1,0 +1,44 @@
+.cost-price{
+  &__wrap{
+    background-color: #FBF9F6;
+      padding: 30px 3%;
+      flex: 1 1;
+    
+      @include mq('desktop') {
+        padding: 40px 3%;
+      }
+  }
+  &__title {
+      font-size: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #C7BBAB;
+      text-align: center;
+  
+      @include mq('desktop') {
+        padding-bottom: 30px;
+      }
+    }
+  &__plus{
+    font-size: 50px;
+    text-align: center;
+  }
+  &__block{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    @include mq('desktop'){
+      flex-direction: initial;
+      gap: 2%;
+    }
+  }
+  &__message{
+    line-height: 2;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 20px;
+      margin-top: 60px;
+    }
+  }
+}

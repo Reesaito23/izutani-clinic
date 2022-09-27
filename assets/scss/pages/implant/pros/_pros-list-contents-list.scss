@@ -1,0 +1,49 @@
+.pros-list-contents-list{
+  &__item{
+    &:not(:first-child){
+      margin-top: 16px;
+      border-top: 1px solid #C7BBAB;
+      padding-top: 16px;
+    }
+  }
+  &__title{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 16px;
+    }
+  }
+  &__main{
+    li{
+      position: relative;
+      padding-left: 19px;
+      &:not(:first-child){
+        margin-top: 5px;
+      }
+      &::before{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+    &-true{
+      li {
+          &::before {
+            content: url("../image/implant/pros/true.svg");
+          }
+        }
+    }
+    &-false{
+      li {
+          &::before {
+            content: url("../image/implant/pros/false.svg");
+          }
+        }
+    }
+  }
+  &__icon{
+    text-align: center;
+    font-size: 22px;
+  }
+}

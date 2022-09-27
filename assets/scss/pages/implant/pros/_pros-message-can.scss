@@ -1,0 +1,37 @@
+.pros-message-can{
+  &__title{
+    font-size: 16px;
+    line-height: 2;
+    @include mq('desktop'){
+      font-size: 20px;
+    }
+  }
+  &__block{
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      gap: 6%;
+      justify-content: center;
+    }
+  }
+  &__image{
+    margin-left: auto;
+    margin-right: auto;
+    @include mq('desktop'){
+      width: 40%;
+    }
+  }
+  &__text{
+    font-size: 11px;
+    line-height: 2;
+    text-align: initial;
+    margin-top: 20px;
+    @include mq('desktop'){
+      margin-top: 0px;
+      font-size: 14px;
+      width: 40%;
+    }
+  }
+}

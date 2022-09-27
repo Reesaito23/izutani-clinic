@@ -1,0 +1,24 @@
+.pros-list-titlearea{
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+    border-bottom: 1px solid #C7BBAB;
+  &__num{
+    position: absolute;
+    top: -.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 90px;
+    color: rgba($color: #887660, $alpha: 0.1);
+    @include mq('desktop'){
+      font-size: 130px;
+    }
+
+  }
+  &__title{
+    font-size: 22px;
+    @include mq('desktop'){
+      font-size: 32px;
+    }
+  }
+}

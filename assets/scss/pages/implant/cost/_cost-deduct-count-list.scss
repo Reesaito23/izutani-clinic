@@ -1,0 +1,27 @@
+.cost-deduct-count-list{
+  background-color: rgba($color: #887660, $alpha: 0.04);
+  padding: 10px 3%;
+    @include mq('desktop'){
+      width: 40%;
+    }
+    &__item{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      &:not(:last-child){
+        border-bottom: 1px solid rgba($color: #c7bbab, $alpha: 0.4);
+      }
+    }
+    &__level{
+      font-size: 14px;
+      &-label{
+        font-size: 16px;
+      }
+    }
+    &__rate{
+      font-size: 14px;
+      &-label {
+          font-size: 16px;
+        }
+    }
+}

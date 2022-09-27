@@ -1,0 +1,23 @@
+.sedation-explain{
+  display: flex;
+  gap: 30px;
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    @include mq('desktop'){
+      flex-direction: initial;
+        align-items: flex-start;
+        margin-top: 60px;
+    }
+  &__image{
+    @include mq('desktop'){
+      width: 40%;
+    }
+  }
+  &__text{
+    font-size: 12px;
+      line-height: 2;
+      @include mq('desktop'){
+        font-size: 14px;
+      }
+  }
+}

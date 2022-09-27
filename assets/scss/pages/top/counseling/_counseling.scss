@@ -1,0 +1,86 @@
+.counseling{
+  margin-top: 90px;
+  @include mq('desktop'){
+    margin-top: 180px;
+  }
+  &__block{
+    background-color: #9D8C78;
+    padding: 30px 5%;
+    color: #FBF9F6;
+    position: relative;
+    margin-top: -50px;
+    @include mq('desktop'){
+      margin-top: -400px;
+      width: 60%;
+      margin-right: 0;
+        margin-left: auto;
+      padding: 80px 5%;
+    }
+  }
+  &__title{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    @include mq('desktop'){
+      font-size: 32px;
+    }
+    &::after{
+      content: "";
+      width: 126px;
+      height: 1px;
+      background-color: #E5DCCF;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    span{
+      display: block;
+      font-size: .82em;
+    }
+  }
+  &__text{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 2;
+    @include mq('desktop'){
+      font-size: 16px;
+    }
+  }
+  &__pre-button{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    @include mq('desktop'){
+      font-size: 18px;
+    }
+  }
+  &__button{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #887660;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 10px;
+    position: relative;
+    @include mq('desktop'){
+      font-size: 20px;
+    }
+    span{
+      display: block;
+      font-size: .8em;
+    }
+    &::after{
+      position: absolute;
+      content: url("../image/common/arrow-right--white.svg");
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+    }
+  }
+}

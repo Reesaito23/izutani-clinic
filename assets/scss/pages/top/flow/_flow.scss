@@ -1,0 +1,41 @@
+.flow{
+  margin-top: 100px;
+  padding-bottom: 80px;
+  @include mq('desktop'){
+    margin-top: 200px;
+    padding-bottom: 140px;
+  }
+  &__title {
+      position: relative;
+  
+      &::after {
+        content: "FLOW";
+      }
+    }
+  &__list{
+    margin-top: 50px;
+    width: 100%;
+    @include mq('desktop'){
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 100px;
+      width: 75%;
+        min-width: 672px;
+    }
+  }
+  &__text{
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    @include mq('desktop'){
+      margin-top: 80px;
+      font-size: 18px;
+    }
+    span{
+      font-size: 1.8em;
+      display: block;
+      margin-bottom: 1em;
+    }
+  }
+}

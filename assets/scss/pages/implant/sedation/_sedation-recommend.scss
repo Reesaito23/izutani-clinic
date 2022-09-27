@@ -1,0 +1,51 @@
+.sedation-recommend{
+  background-color: rgba($color: #887660, $alpha: 0.04);
+  padding: 30px 5%;
+  @include mq('desktop'){
+    padding: 60px 5%;
+  }
+  &__title{
+    font-size: 20px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 28px;
+    }
+  }
+  &__block{
+    margin-top: 30px;
+    @include mq('desktop'){
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  &__list{
+    li{
+      position: relative;
+      padding-left: 26px;
+      font-size: 14px;
+      @include mq('desktop'){
+        padding-left: 26px;
+        font-size: 16px;
+      }
+      &:not(:first-child){
+        margin-top: 1em;
+      }
+      &::before{
+        content: url("../image/common/check-list.svg");
+        position: absolute;
+        left: 0;
+        transform: scale(.7) translateY(-50%);
+        transform-origin: left top;
+        top: 50%;
+      }
+    }
+  }
+  &__image{
+    margin-top: 20px;
+    @include mq('desktop'){
+      width: 45%;
+      margin-top: 0;
+    }
+  }
+}

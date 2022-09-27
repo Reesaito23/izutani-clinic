@@ -1,0 +1,58 @@
+.cost-deduct{
+  &__title{
+    font-size: 20px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 24px;
+    }
+  }
+  &__pre{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    @include mq('desktop'){
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+  &__list{
+    margin-top: 40px;
+    list-style-type: decimal;
+    padding-left: 5%;
+    @include mq('desktop'){
+      margin-top: 60px;
+    }
+    li {
+        font-size: 14px;
+        @include mq('desktop'){
+          font-size: 16px;
+        }
+    
+        &:not(:first-child) {
+          margin-top: 1.5em;
+        }
+    
+        span {
+          @include mq('desktop'){
+            padding-left: 32px;
+            margin-top: 5px;
+            display: block;
+            margin-top: 10px;
+          }
+          img{
+            margin-top: 10px;
+            width: 100%;
+            @include mq('desktop'){
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+  }
+  &__count{
+    margin-top: 40px;
+    @include mq('desktop'){
+      margin-top: 60px;
+    }
+  }
+}

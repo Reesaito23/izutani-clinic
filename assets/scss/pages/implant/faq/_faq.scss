@@ -1,0 +1,12 @@
+.faq{
+  padding-top: 60px;
+  @include mq('desktop'){
+    padding-top: 100px;
+  }
+  &__contents{
+    margin-top: 40px;
+    @include mq('desktop'){
+      margin-top: 60px;
+    }
+  }
+}

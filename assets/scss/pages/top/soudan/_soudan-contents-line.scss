@@ -1,0 +1,52 @@
+.soudan-contents-line{
+  background-color: #FBF9F6;
+  padding: 30px 5%;
+  @include mq('desktop'){
+    padding: 40px 0;
+  }
+  &__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mq('desktop'){
+      flex-direction: initial;
+      justify-content: center;
+    }
+  }
+  &__button{
+    margin-left: 20px;
+    display: inline-block;
+    padding: 8px 0;
+    width: 80%;
+    background-color: #887660;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    margin-top: 16px;
+    @include mq('desktop'){
+      padding: 16px 0;
+      width: 300px;
+      font-size: 22px;
+      margin-top: 0px;
+    }
+    &::after {
+        position: absolute;
+        content: url("../image/common/arrow-right--white.svg");
+        top: 50%;
+        right: 8%;
+        transform: translateY(-50%);
+      }
+  }
+  &__text{
+    text-align: center;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 2;
+    @include mq('desktop'){
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}

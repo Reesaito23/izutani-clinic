@@ -1,0 +1,44 @@
+.pride-list-item{
+  position: relative;
+  &__num{
+    position: absolute;
+    top: .2em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 90px;
+    color: rgba($color: #887660, $alpha: .1);
+    @include mq('desktop'){
+      font-size: 120px;
+      top: .3em;
+    }
+  }
+  &__title{
+    font-size: 20px;
+    text-align: center;
+    min-height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mq('desktop'){
+      font-size: 26px;
+    }
+  }
+  &__text{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    @include mq('desktop'){
+      font-size: 12px;
+      margin-top: 30px;
+    }
+    &-bold{
+      font-size: 16px;
+      display: block;
+      margin-bottom: 10px;
+      @include mq('desktop'){
+        font-size: 1.4em;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

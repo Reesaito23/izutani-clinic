@@ -1,0 +1,27 @@
+.schedule{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  @include mq('desktop'){
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  &__contents{
+    margin-top: 30px;
+    @include mq('desktop'){
+      margin-top: 60px;
+    }
+  }
+  &__second-opinion{
+    margin-top: 40px;
+    @include mq('desktop'){
+      margin-top: 60px;
+    }
+  }
+  &__line{
+    margin-top: 40px;
+    
+      @include mq('desktop') {
+        margin-top: 60px;
+      }
+  }
+}
