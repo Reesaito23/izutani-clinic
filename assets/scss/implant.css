@@ -186,11 +186,12 @@
 .pros-list__pre-text {
   margin-top: 40px;
   font-size: 12px;
+  line-height: 2;
 }
 @media screen and (min-width: 768px) {
   .pros-list__pre-text {
     margin-top: 80px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .pros-list__contents {
@@ -471,7 +472,7 @@
 @media screen and (min-width: 768px) {
   .pros-message-can__text {
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 16px;
     width: 40%;
   }
 }
@@ -524,7 +525,7 @@
 }
 @media screen and (min-width: 768px) {
   .schedule-contents-item__time {
-    margin-top: 0em;
+    margin-top: 0.2em;
     font-size: 34px;
   }
 }
@@ -564,12 +565,22 @@
   }
 }
 .schedule-contents-item__title {
-  font-size: 20px;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .schedule-contents-item__title {
+    font-size: 20px;
+  }
 }
 .schedule-contents-item__text {
   margin-top: 10px;
   font-size: 14px;
   line-height: 2;
+}
+@media screen and (min-width: 768px) {
+  .schedule-contents-item__text {
+    font-size: 16px;
+  }
 }
 .schedule-contents-item__explain {
   margin-top: 20px;
@@ -684,7 +695,7 @@
 }
 @media screen and (min-width: 768px) {
   .born__text {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 40px;
   }
 }
@@ -718,7 +729,7 @@
 }
 @media screen and (min-width: 768px) {
   .born-pre__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -767,7 +778,7 @@
 }
 @media screen and (min-width: 768px) {
   .born-structure-item__title {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .born-structure-item__block {
@@ -784,7 +795,7 @@
 }
 @media screen and (min-width: 768px) {
   .born-structure-item__name {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .born-structure-item__text {
@@ -793,7 +804,7 @@
 }
 @media screen and (min-width: 768px) {
   .born-structure-item__text {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -834,7 +845,7 @@
 }
 @media screen and (min-width: 768px) {
   .disease__pre-text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1002,7 +1013,7 @@
 }
 @media screen and (min-width: 768px) {
   .sedation-explain__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1042,7 +1053,7 @@
 @media screen and (min-width: 768px) {
   .sedation-recommend__list li {
     padding-left: 26px;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .sedation-recommend__list li:not(:first-child) {
@@ -1111,7 +1122,7 @@
 }
 @media screen and (min-width: 768px) {
   .guarantee-explain {
-    padding: 60px 10%;
+    padding: 60px 6%;
   }
 }
 .guarantee-explain__text {
@@ -1120,7 +1131,7 @@
 }
 @media screen and (min-width: 768px) {
   .guarantee-explain__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .guarantee-explain__list {
@@ -1132,7 +1143,7 @@
 }
 @media screen and (min-width: 768px) {
   .guarantee-explain__list {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1148,10 +1159,13 @@
 .cost__pre {
   margin-top: 40px;
   text-align: center;
+  font-size: 14px;
+  line-height: 2;
 }
 @media screen and (min-width: 768px) {
   .cost__pre {
     margin-top: 60px;
+    font-size: 16px;
   }
 }
 .cost__price {
@@ -1218,7 +1232,7 @@
 }
 @media screen and (min-width: 768px) {
   .cost-price__message {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 60px;
   }
 }
@@ -1246,12 +1260,22 @@
 .cost-price-list__name {
   font-size: 11px;
 }
+@media screen and (min-width: 768px) {
+  .cost-price-list__name {
+    font-size: 16px;
+  }
+}
 .cost-price-list__name-label {
   font-size: 14px;
   padding: 14px 0;
 }
 .cost-price-list__price {
   font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cost-price-list__price {
+    font-size: 18px;
+  }
 }
 .cost-price-list-sub {
   width: 95%;
@@ -1277,7 +1301,7 @@
 }
 @media screen and (min-width: 768px) {
   .cost-budget__title {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 .cost-budget__graph {
@@ -1311,7 +1335,7 @@
 }
 @media screen and (min-width: 768px) {
   .cost-budget-graph__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .cost-budget-graph__image {
@@ -1365,7 +1389,7 @@
 }
 @media screen and (min-width: 768px) {
   .cost-budget-together__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1403,7 +1427,7 @@
 @media screen and (min-width: 768px) {
   .cost-lone__title {
     text-align: initial;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .cost-lone__text {
@@ -1413,7 +1437,7 @@
 }
 @media screen and (min-width: 768px) {
   .cost-lone__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1565,14 +1589,34 @@
 .cost-deduct-count-list__level {
   font-size: 14px;
 }
+@media screen and (min-width: 768px) {
+  .cost-deduct-count-list__level {
+    font-size: 16px;
+  }
+}
 .cost-deduct-count-list__level-label {
   font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cost-deduct-count-list__level-label {
+    font-size: 18px;
+  }
 }
 .cost-deduct-count-list__rate {
   font-size: 14px;
 }
+@media screen and (min-width: 768px) {
+  .cost-deduct-count-list__rate {
+    font-size: 16px;
+  }
+}
 .cost-deduct-count-list__rate-label {
   font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cost-deduct-count-list__rate-label {
+    font-size: 18px;
+  }
 }
 
 .faq {
@@ -1601,7 +1645,7 @@
 }
 @media screen and (min-width: 768px) {
   .faq-contents__title {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 .faq-contents__items {
@@ -1647,7 +1691,7 @@
 }
 @media screen and (min-width: 768px) {
   .faq-contents-item__text {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .faq-contents-item__question {

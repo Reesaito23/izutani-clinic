@@ -1,10 +1,10 @@
 .soudan-contents{
   &__text {
       text-align: center;
-      font-size: 16px;
+      font-size: 12px;
       line-height: 2;
       @include mq('desktop'){
-        font-size: 12px;
+        font-size: 16px;
       }
   
       &-attention {

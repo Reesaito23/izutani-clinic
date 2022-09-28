@@ -2,14 +2,17 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  max-width: 1440px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 100;
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
 }
 .header{
   &__block{
+    padding-bottom: 10px;
     padding-top: 20px;
     @include mq('desktop'){
+      padding-bottom: 30px;
       padding-top: 54px;
       display: flex;
       justify-content: space-between;

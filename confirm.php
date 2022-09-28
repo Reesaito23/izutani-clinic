@@ -365,6 +365,20 @@ EOM;
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script>
+    const headerHeight = $('header').height();
+    const navPos = $('.fv-slide__nav').offset().top;
+    const navHeight = $('.fv-slide__nav').outerHeight();
+    const navFixedTop = navPos - headerHeight
+    $(window).on('scroll', function() {
+      if ($(this).scrollTop() > navFixedTop) {
+        $('.fv-Nav--fixed').css('top', headerHeight);
+        $('.fv-slide__nav').addClass('fv-Nav--fixed');
+        console.log("1")
+      } else {
+        $('.fv-Nav--fixed').css('top', 'initial');
+        $('.fv-slide__nav').removeClass('fv-Nav--fixed');
+      }
+    });
   </script>
 </body>
 

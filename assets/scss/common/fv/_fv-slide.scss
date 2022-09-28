@@ -17,6 +17,10 @@
       right: 0;
       width: 75%;
       max-width: 800px;
+      &.fv-Nav--fixed {
+        position: fixed;
+        z-index: 100;
+      }
     }
   }
 }

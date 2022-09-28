@@ -162,7 +162,7 @@
 }
 @media screen and (min-width: 768px) {
   .worry-titlearea__title {
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -186,7 +186,7 @@
 }
 @media screen and (min-width: 768px) {
   .worry-titlearea-text__list-item {
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 40px;
   }
 }
@@ -244,13 +244,18 @@
 @media screen and (min-width: 768px) {
   .worry-titlearea-text__contents {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .worry-titlearea-text__contents .pre {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .worry-titlearea-text__contents .pre {
+    font-size: 18px;
+  }
 }
 
 .worry-contentarea__title {
@@ -259,7 +264,7 @@
 }
 @media screen and (min-width: 768px) {
   .worry-contentarea__title {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 .worry-contentarea__title span {
@@ -269,7 +274,7 @@
 }
 @media screen and (min-width: 768px) {
   .worry-contentarea__title span {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .worry-contentarea__text {
@@ -280,7 +285,7 @@
 @media screen and (min-width: 768px) {
   .worry-contentarea__text {
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .worry-contentarea__line {
@@ -377,14 +382,14 @@
     margin-left: auto;
     margin-right: 0;
     margin-top: 200px;
-    width: 95%;
+    width: 98%;
     min-width: 672px;
   }
 }
 
 .pride-list {
   display: flex;
-  gap: 20px;
+  gap: 14px;
   flex-wrap: wrap;
 }
 .pride-list__item {
@@ -395,7 +400,7 @@
 @media screen and (min-width: 768px) {
   .pride-list__item {
     flex: 1 1 20%;
-    padding: 70px 2% 50px;
+    padding: 70px 1% 50px;
   }
 }
 
@@ -433,10 +438,11 @@
   margin-top: 20px;
   font-size: 12px;
   text-align: center;
+  line-height: 1.8;
 }
 @media screen and (min-width: 768px) {
   .pride-list-item__text {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 30px;
   }
 }
@@ -447,7 +453,7 @@
 }
 @media screen and (min-width: 768px) {
   .pride-list-item__text-bold {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 15px;
   }
 }
@@ -633,7 +639,7 @@
 }
 @media screen and (min-width: 768px) {
   .flow-list-item__num {
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 .flow-list-item__block {
@@ -658,13 +664,18 @@
 }
 @media screen and (min-width: 768px) {
   .flow-list-item__title {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 .flow-list-item__text {
   font-size: 14px;
   margin-top: 20px;
   line-height: 2;
+}
+@media screen and (min-width: 768px) {
+  .flow-list-item__text {
+    font-size: 18px;
+  }
 }
 .flow-list-item__contact-block {
   margin-top: 20px;
@@ -799,12 +810,12 @@
 
 .soudan-contents__text {
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 2;
 }
 @media screen and (min-width: 768px) {
   .soudan-contents__text {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .soudan-contents__text-attention {

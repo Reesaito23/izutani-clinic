@@ -34,6 +34,7 @@
     margin-top: 20px;
     flex: 1 1 100%;
     @include mq('desktop'){
+      font-size: 16px;
       flex: 1 1 50%;
       margin-top: 0;
     }

@@ -156,7 +156,7 @@
 @media screen and (min-width: 768px) {
   .transport-map-textarea__train {
     margin-top: 5vw;
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 .transport-map-textarea__train span {
@@ -203,7 +203,7 @@
 }
 @media screen and (min-width: 768px) {
   .transport-howto-list-item__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .transport-howto-list-item:not(:last-child) .transport-howto-list-item__image {

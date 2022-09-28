@@ -26,7 +26,7 @@
     
       @include mq('desktop') {
         text-align: initial;
-        font-size: 18px;
+        font-size: 20px;
       }
   }
     &__text {
@@ -35,7 +35,7 @@
       margin-top: 20px;
   
       @include mq('desktop') {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
 }

@@ -14,14 +14,26 @@
     }
     &__level{
       font-size: 14px;
+      @include mq('desktop'){
+        font-size: 16px;
+      }
       &-label{
         font-size: 16px;
+        @include mq('desktop'){
+          font-size: 18px;
+        }
       }
     }
     &__rate{
       font-size: 14px;
+      @include mq('desktop'){
+        font-size: 16px;
+      }
       &-label {
           font-size: 16px;
+          @include mq('desktop'){
+            font-size: 18px;
+          }
         }
     }
 }

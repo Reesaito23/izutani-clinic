@@ -2,13 +2,13 @@
   background-color: rgba($color: #887660, $alpha: 0.04);
   padding: 30px 5%;
   @include mq('desktop'){
-    padding: 60px 10%;
+    padding: 60px 6%;
   }
   &__text{
     font-size: 12px;
     text-align: center;
     @include mq('desktop'){
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   &__list{
@@ -18,7 +18,7 @@
     line-height: 2;
     padding-left: 5%;
     @include mq('desktop'){
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 }

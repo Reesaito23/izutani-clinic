@@ -34,5 +34,8 @@
   &__item{
     font-size: 14px;
     line-height: 2.2;
+    @include mq('desktop'){
+      font-size: 16px;
+    }
   }
 }
