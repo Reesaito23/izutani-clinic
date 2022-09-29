@@ -321,6 +321,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+@media screen and (min-width: 768px) {
+  .fv-slide-nav-list {
+    position: initial;
+  }
 }
 .fv-slide-nav-list__item {
   width: 50%;
@@ -492,7 +500,7 @@ header {
 }
 
 .footer {
-  padding: 60px 0 40px;
+  padding: 60px 0 160px;
 }
 @media screen and (min-width: 768px) {
   .footer {
