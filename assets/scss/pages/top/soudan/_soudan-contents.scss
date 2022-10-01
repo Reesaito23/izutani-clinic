@@ -1,7 +1,7 @@
 .soudan-contents{
   &__text {
       text-align: center;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 2;
       @include mq('desktop'){
         font-size: 16px;

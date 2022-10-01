@@ -23,14 +23,14 @@
     }
   }
   &__title{
-    font-size: 16px;
+    font-size: 18px;
     @include mq('desktop'){
       font-size: 20px;
     }
   }
   &__text{
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 2;
     @include mq('desktop'){
       margin-top: 16px;

@@ -69,7 +69,7 @@
 }
 .implant__text {
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   line-height: 2.4;
 }
@@ -185,7 +185,7 @@
 
 .pros-list__pre-text {
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
 }
 @media screen and (min-width: 768px) {
@@ -241,7 +241,7 @@
   }
 }
 .pros-list-titlearea__title {
-  font-size: 22px;
+  font-size: 24px;
 }
 @media screen and (min-width: 768px) {
   .pros-list-titlearea__title {
@@ -422,7 +422,7 @@
   align-items: center;
 }
 .pros-message-recommend__text {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 2;
   margin-top: 10px;
 }
@@ -464,7 +464,7 @@
   }
 }
 .pros-message-can__text {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 2;
   text-align: initial;
   margin-top: 20px;
@@ -662,7 +662,7 @@
   }
 }
 .born__title {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6;
   text-align: center;
 }
@@ -688,7 +688,7 @@
   }
 }
 .born__text {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
   margin-top: 30px;
   text-align: center;
@@ -725,7 +725,7 @@
   }
 }
 .born-pre__text {
-  font-size: 12px;
+  font-size: 14px;
 }
 @media screen and (min-width: 768px) {
   .born-pre__text {

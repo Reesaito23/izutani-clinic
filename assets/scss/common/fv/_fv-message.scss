@@ -5,7 +5,7 @@
   }
   &__title{
     padding-top: 200px;
-    font-size: 28px;
+    font-size: 30px;
     @include mq('desktop'){
       padding-top: 256px;
       margin-left: 12.5%;
@@ -41,7 +41,7 @@
   }
   &__breadcrumb{
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     margin-bottom: 60px;
     @include mq('desktop'){

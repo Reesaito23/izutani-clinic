@@ -259,7 +259,7 @@
 }
 
 .worry-contentarea__title {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8em;
 }
 @media screen and (min-width: 768px) {
@@ -269,7 +269,7 @@
 }
 .worry-contentarea__title span {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
@@ -279,13 +279,12 @@
 }
 .worry-contentarea__text {
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.8em;
 }
 @media screen and (min-width: 768px) {
   .worry-contentarea__text {
     margin-top: 30px;
-    font-size: 16px;
   }
 }
 .worry-contentarea__line {
@@ -422,7 +421,7 @@
   }
 }
 .pride-list-item__title {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   min-height: 4em;
   display: flex;
@@ -436,7 +435,7 @@
 }
 .pride-list-item__text {
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   line-height: 1.8;
 }
@@ -483,7 +482,7 @@
   }
 }
 .counseling__title {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   padding-bottom: 20px;
   position: relative;
@@ -508,7 +507,7 @@
   font-size: 0.82em;
 }
 .counseling__text {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 20px;
   line-height: 2;
 }
@@ -519,7 +518,7 @@
 }
 .counseling__pre-button {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -533,7 +532,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #887660;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px 0;
   text-align: center;
   border-radius: 50px;
@@ -810,7 +809,7 @@
 
 .soudan-contents__text {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
 }
 @media screen and (min-width: 768px) {

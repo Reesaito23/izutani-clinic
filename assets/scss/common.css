@@ -44,7 +44,7 @@ body {
 }
 
 .c-section-title {
-  font-size: 28px;
+  font-size: 32px;
 }
 @media screen and (min-width: 768px) {
   .c-section-title {
@@ -138,7 +138,7 @@ header {
   }
 }
 .header-nav-list__item a {
-  font-size: 12px;
+  font-size: 14px;
   padding: 5px;
 }
 @media screen and (min-width: 768px) {
@@ -162,7 +162,7 @@ header {
 }
 .fv-message__title {
   padding-top: 200px;
-  font-size: 28px;
+  font-size: 30px;
 }
 @media screen and (min-width: 768px) {
   .fv-message__title {
@@ -205,7 +205,7 @@ header {
 }
 .fv-message__breadcrumb {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   margin-bottom: 60px;
 }
@@ -560,15 +560,10 @@ header {
 }
 
 .footer-infoarea-item {
-  font-size: 12px;
-}
-@media screen and (min-width: 768px) {
-  .footer-infoarea-item {
-    font-size: 14px;
-  }
+  font-size: 14px;
 }
 .footer-infoarea-item__title {
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 1em;
   border-bottom: 1px solid #E5DCCF;
 }
@@ -680,7 +675,7 @@ header {
   margin-top: 10px;
   display: flex;
   gap: 8px 16px;
-  font-size: 12px;
+  font-size: 14px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -721,7 +716,7 @@ header {
   }
 }
 .c-second-opinion__title {
-  font-size: 16px;
+  font-size: 18px;
 }
 @media screen and (min-width: 768px) {
   .c-second-opinion__title {
@@ -730,7 +725,7 @@ header {
 }
 .c-second-opinion__text {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
 }
 @media screen and (min-width: 768px) {

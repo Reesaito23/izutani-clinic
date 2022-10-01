@@ -1,13 +1,13 @@
 .worry-contentarea{
   &__title{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8em;
     @include mq('desktop'){
       font-size: 22px;
     }
     span{
       display: block;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 10px;
       @include mq('desktop'){
         font-size: 18px;
@@ -16,11 +16,10 @@
   }
   &__text{
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.8em;
     @include mq('desktop'){
       margin-top: 30px;
-      font-size: 16px;
     }
   }
   &__line{
