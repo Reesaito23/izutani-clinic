@@ -18,8 +18,10 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 10px;
+      width: 60%;
       @include mq('desktop'){
         margin-top: 20px;
+        width: 80%;
       }
     }
   &__list{
