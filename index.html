@@ -50,6 +50,11 @@
                 <li class="header-nav-list__item"><a href="contact.html">お問い合わせ</a></li>
               </ul>
             </nav>
+            <div class="header__ham md:hidden">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </section>
@@ -514,6 +519,23 @@
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
+      const headerHeight = $('header').height();
+      const headerBlock = $('.header__block');
+      const navHamClass = $('.header__ham');
+      const $SPheaderMenu_ClassName = $('.header__nav');
+      const SPheader_Active_ClassName = "is--active"
+      const windowWidth = $(window).width();
+      const widthPC = 768;
+
+      $(window).on('load', function () {
+        if (windowWidth < widthPC) {
+          $SPheaderMenu_ClassName.css('padding-top', headerHeight);
+        }
+      });
+      navHamClass.on('click', function () {
+        headerBlock.toggleClass(SPheader_Active_ClassName);
+      });
+      
       $('.fv-slide__contents').slick({
         infinite: true,
         slidesToShow: 1,
@@ -524,7 +546,7 @@
         autoplaySpeed:3000,
         speed:1000,
       });
-      const headerHeight = $('header').height();
+      
       const navPos = $('.fv-slide__nav').offset().top;
       const navHeight = $('.fv-slide__nav').outerHeight();
       const navFixedTop = navPos - headerHeight

@@ -10,26 +10,75 @@ header{
 .header{
   &__block{
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
     @include mq('desktop'){
       padding-bottom: 30px;
       padding-top: 54px;
-      display: flex;
       justify-content: space-between;
       align-items: center;
 
     }
   }
   &__logo{
-    width: 100%;
+    width: 80%;
     @include mq('desktop'){
       width: 380px;
     }
   }
   &__nav{
-    margin-top: 20px;
+    position: absolute;
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translatex(100%);
+    z-index: -1;
+    transition: all .3s;
     @include mq('desktop'){
-      margin-top: 0;
+      background-color: initial;
+      width: auto;
+      position: initial;
+      transform: initial;
+    }
+  }
+  &__ham{
+    width: 20%;
+    span{
+      width: 50%;
+      margin-right: 0;
+      margin-left: auto;
+      max-width: 40px;
+      height: 3px;
+      background-color: #887660;
+      display: block;
+      transition: all .3s;
+      &:not(:first-child){
+        margin-top: 5px;
+      }
+    }
+  }
+}
+// ハンバーガーメニュー : open
+.header__block.is--active{
+  .header__nav{
+    transform: translatex(0%);
+  }
+  .header__ham{
+    span{
+      &:not(:first-child){
+        margin-top: 0px;
+      }
+      &:nth-child(1){
+        transform: translate(0%, 0%) rotate(45deg);
+      }
+      &:nth-child(2){
+        transform: translateX(100vw);
+      }
+      &:nth-child(3){
+        transform: translate(0%, -150%) rotate(-45deg);
+      }
     }
   }
 }

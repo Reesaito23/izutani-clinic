@@ -92,20 +92,22 @@
     margin-top: 200px;
   }
 }
-.worry__wrap:nth-of-type(2) {
-  position: relative;
-}
-.worry__wrap:nth-of-type(2)::before {
-  content: "";
-  position: absolute;
-  background-image: url("../image/toppage/worry/background-image01.png");
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 200px;
-  z-index: -1;
-  background-size: cover;
-  background-position: right bottom;
+@media screen and (min-width: 768px) {
+  .worry__wrap:nth-of-type(2) {
+    position: relative;
+  }
+  .worry__wrap:nth-of-type(2)::before {
+    content: "";
+    position: absolute;
+    background-image: url("../image/toppage/worry/background-image01.png");
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 200px;
+    z-index: -1;
+    background-size: cover;
+    background-position: right bottom;
+  }
 }
 @media screen and (min-width: 768px) {
   .worry__titlearea {

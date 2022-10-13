@@ -38,9 +38,9 @@
 }
 
 body {
-  color: #887660;
+  color: #886D4C;
   font-family: "Cinzel", "Shippori Mincho", serif !important;
-  background-color: #FBF9F6;
+  background-color: #Fefefe;
 }
 
 .c-section-title {
@@ -86,19 +86,20 @@ header {
 
 .header__block {
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .header__block {
     padding-bottom: 30px;
     padding-top: 54px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
   }
 }
 .header__logo {
-  width: 100%;
+  width: 80%;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -106,12 +107,54 @@ header {
   }
 }
 .header__nav {
-  margin-top: 20px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: translatex(100%);
+  z-index: -1;
+  transition: all 0.3s;
 }
 @media screen and (min-width: 768px) {
   .header__nav {
-    margin-top: 0;
+    background-color: initial;
+    width: auto;
+    position: initial;
+    transform: initial;
   }
+}
+.header__ham {
+  width: 20%;
+}
+.header__ham span {
+  width: 50%;
+  margin-right: 0;
+  margin-left: auto;
+  max-width: 40px;
+  height: 3px;
+  background-color: #887660;
+  display: block;
+  transition: all 0.3s;
+}
+.header__ham span:not(:first-child) {
+  margin-top: 5px;
+}
+
+.header__block.is--active .header__nav {
+  transform: translatex(0%);
+}
+.header__block.is--active .header__ham span:not(:first-child) {
+  margin-top: 0px;
+}
+.header__block.is--active .header__ham span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(45deg);
+}
+.header__block.is--active .header__ham span:nth-child(2) {
+  transform: translateX(100vw);
+}
+.header__block.is--active .header__ham span:nth-child(3) {
+  transform: translate(0%, -150%) rotate(-45deg);
 }
 
 .header-nav-list {
@@ -161,8 +204,8 @@ header {
   }
 }
 .fv-message__title {
-  padding-top: 200px;
-  font-size: 30px;
+  padding-top: 140px;
+  font-size: 28px;
 }
 @media screen and (min-width: 768px) {
   .fv-message__title {
@@ -173,11 +216,12 @@ header {
 }
 .fv-message__title .en {
   display: block;
-  font-size: 0.4em;
+  font-size: 0.5em;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .fv-message__title .en {
+    font-size: 0.4em;
     margin-bottom: 32px;
   }
 }
