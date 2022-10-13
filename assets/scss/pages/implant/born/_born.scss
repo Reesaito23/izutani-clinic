@@ -5,11 +5,15 @@
     padding: 120px 0;
   }
   &__title{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
     text-align: center;
     @include mq('desktop'){
       font-size: 26px;
+    }
+    .bold{
+      font-weight: bold;
+      font-size: 1.2em;
     }
   }
   &__pre{

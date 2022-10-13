@@ -5,6 +5,12 @@
     padding-top: 100px;
     padding-bottom: 60px;
   }
+  &__title{
+    .bold{
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+  }
   &__contents{
     margin-top: 30px;
     @include mq('desktop'){
