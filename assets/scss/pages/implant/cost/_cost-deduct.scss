@@ -2,6 +2,8 @@
   &__title{
     font-size: 20px;
     text-align: center;
+    background-color: #F6F4F0;
+      padding: 1em 0;
     @include mq('desktop'){
       font-size: 24px;
     }
@@ -48,6 +50,36 @@
           }
         }
       }
+  }
+  &__price{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    height: 7em;
+    margin-top: 20px;
+    @include mq('desktop'){
+      font-size: 16px;
+    }
+    >*{
+      &:not(:first-child){
+        margin-left: 5px;
+      }
+    }
+    .text{
+      &:nth-of-type(1){
+        background-color: rgba(136, 118, 96, 0.04);
+        border: 3px solid rgba(199, 187, 171, 0.4);
+      }
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F6F4F0;
+      height: 100%;
+      text-align: center;
+      padding: 1%;
+    }
   }
   &__count{
     margin-top: 40px;
