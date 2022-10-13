@@ -171,7 +171,7 @@ EOM;
                   <p class="fv-slide-nav-list__text">LINE相談</p>
                 </div>
               </a></li>
-            <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+            <li class="fv-slide-nav-list__item hidden md:block"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
                 <p class="fv-slide-nav-list__text-sub">まずは資料請求</p>
                 <div class="fv-slide-nav-list__block">
                   <img src="assets/image/common/fv/slide-nav/data.svg" alt="">
