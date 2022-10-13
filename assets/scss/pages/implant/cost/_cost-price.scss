@@ -19,8 +19,11 @@
       }
     }
   &__plus{
-    font-size: 50px;
+    font-size: 22px;
     text-align: center;
+    @include mq('desktop'){
+      font-size: 34px;
+    }
   }
   &__block{
     display: flex;
