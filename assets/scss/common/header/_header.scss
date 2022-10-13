@@ -36,7 +36,6 @@ header{
     transform: translatex(100%);
     z-index: -1;
     transition: all .3s;
-    z-index: 100;
     @include mq('desktop'){
       background-color: initial;
       width: auto;
