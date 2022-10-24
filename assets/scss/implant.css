@@ -1749,6 +1749,10 @@
     font-size: 20px;
   }
 }
+.faq-contents-item__text a {
+  color: rgba(0, 0, 255, 0.6);
+  text-decoration: underline;
+}
 .faq-contents-item__question {
   background-color: rgba(136, 118, 96, 0.06);
   position: relative;

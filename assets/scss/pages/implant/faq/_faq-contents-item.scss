@@ -21,6 +21,10 @@
     @include mq('desktop'){
       font-size: 20px;
     }
+    a{
+      color: rgba($color: blue, $alpha: 0.6);
+      text-decoration: underline;
+    }
   }
   &__question{
     background-color: rgba($color: #887660, $alpha: 0.06);

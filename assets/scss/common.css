@@ -43,6 +43,10 @@ body {
   background-color: #Fefefe;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .c-section-title {
   font-size: 32px;
 }
