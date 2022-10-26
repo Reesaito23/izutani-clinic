@@ -7,17 +7,17 @@
     align-items: center;
   }
   &__name{
-    font-size: 11px;
+    font-size: 15px;
     @include mq('desktop'){
       font-size: 16px;
     }
     &-label{
-      font-size: 14px;
+      font-size: 16px;
       padding: 14px 0;
     }
   }
   &__price{
-    font-size: 16px;
+    font-size: 18px;
     @include mq('desktop'){
       font-size: 18px;
     }

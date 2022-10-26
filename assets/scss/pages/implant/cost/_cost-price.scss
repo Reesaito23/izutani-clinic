@@ -1,6 +1,6 @@
 .cost-price{
   &__wrap{
-    background-color: #FBF9F6;
+    background-color: transparent;
       padding: 30px 3%;
       flex: 1 1;
     
@@ -21,11 +21,14 @@
   &__plus{
     font-size: 22px;
     text-align: center;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    padding-top: 1em;
     @include mq('desktop'){
       font-size: 34px;
     }
   }
   &__block{
+    background-color: rgba($color: #fff, $alpha: 0.8);
     display: flex;
     gap: 20px;
     flex-direction: column;
