@@ -495,9 +495,12 @@
 .schedule__title .bold {
   font-weight: bold;
   font-size: 1.3em;
+  color: firebrick;
 }
 .schedule__contents {
   margin-top: 30px;
+  background-color: rgba(136, 118, 96, 0.04);
+  padding: 20px 0;
 }
 @media screen and (min-width: 768px) {
   .schedule__contents {

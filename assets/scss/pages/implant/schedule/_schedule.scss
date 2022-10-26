@@ -9,10 +9,13 @@
     .bold{
       font-weight: bold;
       font-size: 1.3em;
+      color: firebrick;
     }
   }
   &__contents{
     margin-top: 30px;
+    background-color: rgba(136, 118, 96, 0.04);
+    padding: 20px 0;
     @include mq('desktop'){
       margin-top: 60px;
     }
