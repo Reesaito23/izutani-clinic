@@ -53,10 +53,11 @@
   }
   &__price{
     display: flex;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: bold;
     align-items: center;
     justify-content: space-between;
-    height: 7em;
+    height: 17em;
     margin-top: 20px;
     @include mq('desktop'){
       font-size: 16px;
@@ -79,6 +80,16 @@
       height: 100%;
       text-align: center;
       padding: 1%;
+      writing-mode: vertical-rl;
+      white-space: nowrap;
+      text-orientation: upright;
+      flex-direction: column;
+      .num{
+        text-orientation: initial;
+      }
+      .br{
+        display: block;
+      }
     }
   }
   &__count{

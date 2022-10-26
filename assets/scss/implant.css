@@ -1537,10 +1537,11 @@
 }
 .cost-deduct__price {
   display: flex;
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
   align-items: center;
   justify-content: space-between;
-  height: 7em;
+  height: 17em;
   margin-top: 20px;
 }
 @media screen and (min-width: 768px) {
@@ -1560,10 +1561,21 @@
   height: 100%;
   text-align: center;
   padding: 1%;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  white-space: nowrap;
+  text-orientation: upright;
+  flex-direction: column;
 }
 .cost-deduct__price .text:nth-of-type(1) {
   background-color: rgba(136, 118, 96, 0.04);
   border: 3px solid rgba(199, 187, 171, 0.4);
+}
+.cost-deduct__price .text .num {
+  text-orientation: initial;
+}
+.cost-deduct__price .text .br {
+  display: block;
 }
 .cost-deduct__count {
   margin-top: 40px;
