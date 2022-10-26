@@ -2,12 +2,14 @@
   background-color: #F6F4F0;
   border: 1px solid #C7BBAB;
   padding: 30px 5%;
-  flex: 1 1;
+  min-width: 80%;
   &:not(:first-child){
-    margin-top: 20px;
+    margin-left: 20px;
   }
   @include mq('desktop'){
     padding: 40px 2%;
+    min-width: auto;
+    flex: 1 1;
     &:not(:first-child) {
         margin-top: 0px;
       }
