@@ -164,10 +164,11 @@ header {
 
 .header-nav-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 @media screen and (min-width: 768px) {
   .header-nav-list {
+    justify-content: flex-end;
     display: flex;
     flex-wrap: wrap;
   }
@@ -187,10 +188,12 @@ header {
 }
 .header-nav-list__item a {
   font-size: 14px;
-  padding: 5px;
+  padding: 15px;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .header-nav-list__item a {
+    padding: 5px;
     font-size: 17px;
   }
 }

@@ -1,7 +1,8 @@
 .header-nav-list{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   @include mq('desktop'){
+    justify-content: flex-end;
     display: flex;
     flex-wrap: wrap;
   }
@@ -17,8 +18,10 @@
     }
     a{
       font-size: 14px;
-      padding: 5px;
+      padding: 15px;
+      display: block;
       @include mq('desktop'){
+        padding: 5px;
         font-size: 17px;
       }
     }
