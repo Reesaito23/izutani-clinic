@@ -4,6 +4,8 @@
     text-align: center;
     background-color: #F6F4F0;
       padding: 1em 0;
+    color: firebrick;
+    font-weight: bold;
     @include mq('desktop'){
       font-size: 24px;
     }

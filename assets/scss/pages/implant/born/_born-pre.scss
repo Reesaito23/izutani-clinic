@@ -12,7 +12,8 @@
     }
   }
   &__text{
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
     @include mq('desktop'){
       font-size: 16px;
     }

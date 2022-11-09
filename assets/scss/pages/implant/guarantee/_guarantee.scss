@@ -3,6 +3,10 @@
   @include mq('desktop'){
     padding: 120px 0;
   }
+  &__title{
+    color: firebrick;
+    font-weight: bold;
+  }
   &__message{
     margin-top: 40px;
     font-size: 14px;

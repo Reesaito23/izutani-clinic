@@ -8,6 +8,8 @@
     font-size: 18px;
     line-height: 1.6;
     text-align: center;
+    color: firebrick;
+    font-weight: bold;
     @include mq('desktop'){
       font-size: 26px;
     }

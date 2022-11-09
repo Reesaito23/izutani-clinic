@@ -8,6 +8,10 @@
       padding-top: 100px;
       padding-bottom: 100px;
   }
+  &__title{
+    color: firebrick;
+    font-weight: bold;
+  }
   &__list{
     margin-top: 40px;
     @include mq('desktop'){

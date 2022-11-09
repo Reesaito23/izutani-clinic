@@ -42,6 +42,8 @@
     font-size: 18px;
     margin-top: 40px;
     text-align: center;
+    color: firebrick;
+    font-weight: bold;
     @include mq('desktop'){
       font-size: 22px;
       margin-top: 60px;

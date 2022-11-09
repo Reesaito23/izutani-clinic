@@ -20,14 +20,16 @@
     width: 35%;
   }
   &__name{
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
     @include mq('desktop'){
       font-size: 18px;
     }
   }
   &__text{
     margin-top: 10px;
-    font-size: 10px;
+    // font-size: 10px;
+    font-size: 16px;
     @include mq('desktop'){
       font-size: 16px;
     }

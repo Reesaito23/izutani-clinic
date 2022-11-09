@@ -166,6 +166,10 @@
     padding-bottom: 100px;
   }
 }
+.pros__title {
+  color: firebrick;
+  font-weight: bold;
+}
 .pros__list {
   margin-top: 40px;
 }
@@ -361,6 +365,7 @@
   background-color: #F6F4F0;
   padding: 1em;
   font-weight: bold;
+  color: firebrick;
 }
 @media screen and (min-width: 768px) {
   .pros-message__title {
@@ -494,6 +499,9 @@
     padding-top: 100px;
     padding-bottom: 60px;
   }
+}
+.schedule__title {
+  color: firebrick;
 }
 .schedule__title .bold {
   font-weight: bold;
@@ -680,6 +688,8 @@
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
+  color: firebrick;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .born__title {
@@ -745,7 +755,7 @@
   }
 }
 .born-pre__text {
-  font-size: 14px;
+  font-size: 16px;
 }
 @media screen and (min-width: 768px) {
   .born-pre__text {
@@ -811,7 +821,7 @@
   width: 35%;
 }
 .born-structure-item__name {
-  font-size: 14px;
+  font-size: 16px;
 }
 @media screen and (min-width: 768px) {
   .born-structure-item__name {
@@ -820,7 +830,7 @@
 }
 .born-structure-item__text {
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 16px;
 }
 @media screen and (min-width: 768px) {
   .born-structure-item__text {
@@ -989,6 +999,10 @@
     padding: 120px 0;
   }
 }
+.sedation__title {
+  color: firebrick;
+  font-weight: bold;
+}
 .sedation__message {
   margin-top: 30px;
   font-size: 18px;
@@ -1114,6 +1128,10 @@
     padding: 120px 0;
   }
 }
+.guarantee__title {
+  color: firebrick;
+  font-weight: bold;
+}
 .guarantee__message {
   margin-top: 40px;
   font-size: 14px;
@@ -1184,6 +1202,10 @@
   .cost {
     padding: 120px 0;
   }
+}
+.cost__title {
+  color: firebrick;
+  font-weight: bold;
 }
 .cost__pre {
   margin-top: 40px;
@@ -1266,6 +1288,8 @@
   font-size: 18px;
   margin-top: 40px;
   text-align: center;
+  color: firebrick;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .cost-price__message {
@@ -1483,6 +1507,8 @@
   text-align: center;
   background-color: #F6F4F0;
   padding: 1em 0;
+  color: firebrick;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .cost-deduct__title {
@@ -1708,6 +1734,10 @@
   .faq {
     padding-top: 100px;
   }
+}
+.faq__title {
+  color: firebrick;
+  font-weight: bold;
 }
 .faq__contents {
   margin-top: 40px;

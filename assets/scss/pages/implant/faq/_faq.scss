@@ -4,6 +4,10 @@
   @include mq('desktop'){
     padding-top: 100px;
   }
+  &__title{
+    color: firebrick;
+    font-weight: bold;
+  }
   &__contents{
     margin-top: 40px;
     @include mq('desktop'){
