@@ -12,11 +12,12 @@
         font-size: 34px;
       }
       .small{
-        font-size: 11px;
+        // font-size: 11px;
         line-height: 1.2;
         display: block;
+        font-size: 16px;
         @include mq('desktop'){
-          font-size: 14px;
+          // font-size: 14px;
         }
       }
       span:not(.small) {
@@ -49,7 +50,8 @@
     }
     &__text{
       margin-top: 10px;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 16px;
       line-height: 2;
       @include mq('desktop'){
         font-size: 16px;

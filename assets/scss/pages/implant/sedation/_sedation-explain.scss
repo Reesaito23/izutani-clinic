@@ -14,7 +14,8 @@
     }
   }
   &__text{
-    font-size: 12px;
+    // font-size: 12px;
+    font-size: 16px;
       line-height: 2;
       @include mq('desktop'){
         font-size: 16px;

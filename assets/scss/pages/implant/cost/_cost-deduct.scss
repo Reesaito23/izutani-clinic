@@ -27,7 +27,8 @@
       margin-top: 60px;
     }
     li {
-        font-size: 14px;
+        // font-size: 14px;
+        font-size: 16px;
         @include mq('desktop'){
           font-size: 16px;
         }

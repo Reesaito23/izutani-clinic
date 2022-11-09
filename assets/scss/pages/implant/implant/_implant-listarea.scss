@@ -26,7 +26,8 @@
     }
     li{
       display: flex;
-      font-size: 12px;
+      // font-size: 12px;
+      font-size: 16px;
       align-items: flex-start;
       @include mq('desktop'){
         font-size: 18px;

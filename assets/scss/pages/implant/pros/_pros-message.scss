@@ -12,7 +12,8 @@
   }
   &__pre-text{
     margin-top: 20px;
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
     line-height: 2;
     @include mq('desktop'){
       margin-top: 30px;

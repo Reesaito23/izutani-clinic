@@ -7,7 +7,8 @@
     align-items: center;
   }
   &__name{
-    font-size: 15px;
+    // font-size: 15px;
+    font-size: 16px;
     @include mq('desktop'){
       font-size: 16px;
     }

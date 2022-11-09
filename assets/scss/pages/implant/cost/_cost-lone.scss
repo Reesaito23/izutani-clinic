@@ -21,7 +21,8 @@
       }
     }
   &__title{
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
       text-align: center;
     
       @include mq('desktop') {
@@ -30,7 +31,8 @@
       }
   }
     &__text {
-      font-size: 12px;
+      // font-size: 12px;
+      font-size: 16px;
       line-height: 2;
       margin-top: 20px;
   

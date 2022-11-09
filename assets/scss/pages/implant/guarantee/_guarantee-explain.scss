@@ -5,14 +5,16 @@
     padding: 60px 6%;
   }
   &__text{
-    font-size: 12px;
+    // font-size: 12px;
+    font-size: 16px;
     text-align: center;
     @include mq('desktop'){
       font-size: 16px;
     }
   }
   &__list{
-    font-size: 12px;
+    // font-size: 12px;
+    font-size: 16px;
     margin-top: 1em;
     list-style-type: decimal;
     line-height: 2;

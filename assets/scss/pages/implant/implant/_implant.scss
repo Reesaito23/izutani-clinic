@@ -29,7 +29,8 @@
   &__pre-text{
     text-align: center;
     margin-top: 40px;
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
     @include mq('desktop'){
       margin-top: 60px;
       font-size: 20px;
@@ -43,7 +44,8 @@
   }
   &__text{
     margin-top:40px;
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 16px;
     text-align: center;
     line-height: 2.4;
     @include mq('desktop'){
