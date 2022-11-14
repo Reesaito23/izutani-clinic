@@ -10,7 +10,7 @@
     line-height: 1.8;
     text-align: center;
     background-color: #F6F4F0;
-    padding: 1em;
+    padding: 1em .5em;
     @include mq('desktop'){
       font-size: 28px;
     }

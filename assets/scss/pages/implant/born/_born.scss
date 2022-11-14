@@ -10,6 +10,7 @@
     text-align: center;
     color: firebrick;
     font-weight: bold;
+    white-space: nowrap;
     @include mq('desktop'){
       font-size: 26px;
     }

@@ -685,6 +685,7 @@
   text-align: center;
   color: firebrick;
   font-weight: bold;
+  white-space: nowrap;
 }
 @media screen and (min-width: 768px) {
   .born__title {
@@ -848,7 +849,7 @@
   line-height: 1.8;
   text-align: center;
   background-color: #F6F4F0;
-  padding: 1em;
+  padding: 1em 0.5em;
 }
 @media screen and (min-width: 768px) {
   .disease__title {

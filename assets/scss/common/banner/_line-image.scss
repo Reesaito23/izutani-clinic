@@ -1,0 +1,9 @@
+.c-line-image{
+  margin-top: 50px;
+  @include mq('desktop'){
+    margin-top: 100px;
+  }
+  img{
+    width: 100%;
+  }
+}

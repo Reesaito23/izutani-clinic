@@ -921,6 +921,18 @@ header {
   }
 }
 
+.c-line-image {
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .c-line-image {
+    margin-top: 100px;
+  }
+}
+.c-line-image img {
+  width: 100%;
+}
+
 .c-kigaru {
   background-color: #9D8C78;
   color: #FFFFFF;

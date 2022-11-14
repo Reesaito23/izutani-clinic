@@ -66,12 +66,12 @@
 }
 
 .worry {
-  margin-top: 100px;
+  margin-top: 50px;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .worry {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 }
 .worry__wrap {
