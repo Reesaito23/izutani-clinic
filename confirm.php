@@ -347,7 +347,7 @@ EOM;
           </div>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.21967994805!2d134.6886837153781!3d34.825568784027766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e06d59704887%3A0x33dbf424f09ac9b7!2z44K444On44Km44Kv44Oq44OL44OD44KvIOWnq-i3r-mZog!5e0!3m2!1sja!2stw!4v1663729655656!5m2!1sja!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="footer__map"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13100.882439480833!2d134.6909593!3d34.8255454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554e1a204e20a63%3A0x44b953e500cf1891!2z44GE44Ga44Gf44Gr44OH44Oz44K_44Or44Kv44Oq44OL44OD44KvIOWnq-i3r-mnheWJjemZoiDjgqTjg7Pjg5fjg6njg7Pjg4g!5e0!3m2!1sja!2stw!4v1668599315970!5m2!1sja!2stw" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="footer__map"></iframe>
       <div class="footer__menuarea c-layout--2 footer-menuarea">
         <small>Copyright © 2022 All rights reserved</small>
         <nav class="footer-menuarea__nav">
