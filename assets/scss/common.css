@@ -800,6 +800,7 @@ header {
   border: 1px solid #887660;
   padding: 20px 5%;
   position: relative;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .c-line-01 {
@@ -860,6 +861,7 @@ header {
   background-color: rgba(136, 118, 96, 0.04);
   padding: 20px 5%;
   position: relative;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .c-line-02 {

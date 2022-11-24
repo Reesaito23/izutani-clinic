@@ -67,10 +67,10 @@ if (isset($_POST["submit"])) {
 EOM;
 
   // 送信元のメールアドレスを変数fromEmailに格納
-  $fromEmail = "sample@gmail.com";
+  $fromEmail = "ree.rieru@gmail.com";
 
   // 送信元の名前を変数fromNameに格納
-  $fromName = "お問い合わせテスト";
+  $fromName = "いずたにデンタルクリニック";
 
   // ヘッダ情報を変数headerに格納する      
   $header = "From: " . mb_encode_mimeheader($fromName) . "<{$fromEmail}>";
@@ -91,7 +91,9 @@ EOM;
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>いずたにデンタルクリニック</title>
+  <title>インプラント治療ならいずたにデンタルクリニック姫路駅前院｜JR姫路駅から徒歩1分</title>
+  <meta name="description" content="いずたにデンタルクリニック姫路駅前院はインプラント治療を専門に行っている歯科医院です。JR姫路駅から徒歩1分のところにあります。LINEによる相談も受け付けています。" />
+  <meta name="keywords" content="インプラント,姫路,いずたにデンタルクリニック">
 
   <link rel="stylesheet" href="assets/css/destyle.css">
   <link rel="stylesheet" href="assets/scss/common.css">
@@ -165,27 +167,27 @@ EOM;
         </ul>
         <nav class="fv-slide__nav">
           <ul class="fv-slide-nav-list">
-            <li class="fv-slide-nav-list__item"><a href="http://" target="_blank" rel="noopener noreferrer" class="fv-slide-nav-list__item-anchor">
+            <li class="fv-slide-nav-list__item"><a href="https://lin.ee/GZsUVL1" target="_blank" rel="noopener noreferrer" class="fv-slide-nav-list__item-anchor">
                 <div class="fv-slide-nav-list__block">
                   <img src="assets/image/common/fv/slide-nav/line.svg" alt="">
                   <p class="fv-slide-nav-list__text">LINE相談</p>
                 </div>
               </a></li>
-            <li class="fv-slide-nav-list__item hidden md:block"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+            <li class="fv-slide-nav-list__item hidden md:block"><a class="fv-slide-nav-list__item-anchor" href="contact.html">
                 <p class="fv-slide-nav-list__text-sub">まずは資料請求</p>
                 <div class="fv-slide-nav-list__block">
                   <img src="assets/image/common/fv/slide-nav/data.svg" alt="">
                   <p class="fv-slide-nav-list__text">資料請求はこちら</p>
                 </div>
               </a></li>
-            <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+            <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="contact.html">
                 <p class="fv-slide-nav-list__text-sub">ご予約・お問い合わせ</p>
                 <div class="fv-slide-nav-list__block">
                   <img src="assets/image/common/fv/slide-nav/tel.svg" alt="">
                   <p class="fv-slide-nav-list__text">079-280-5555</p>
                 </div>
               </a></li>
-            <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="http://" target="_blank" rel="noopener noreferrer">
+            <li class="fv-slide-nav-list__item"><a class="fv-slide-nav-list__item-anchor" href="contact.html">
                 <p class="fv-slide-nav-list__text-sub">24時間受付</p>
                 <div class="fv-slide-nav-list__block">
                   <img src="assets/image/common/fv/slide-nav/mail.svg" alt="">
@@ -352,12 +354,21 @@ EOM;
         <small>Copyright © 2022 All rights reserved</small>
         <nav class="footer-menuarea__nav">
           <ul class="footer-menuarea-nav-list">
-            <li class="footer-menuarea-nav-list__item"><a href="">医院紹介</a></li>
-            <li class="footer-menuarea-nav-list__item"><a href="">インプラント治療</a></li>
-            <li class="footer-menuarea-nav-list__item"><a href="">費用</a></li>
-            <li class="footer-menuarea-nav-list__item"><a href="">よくある質問</a></li>
-            <li class="footer-menuarea-nav-list__item"><a href="">アクセス</a></li>
-            <li class="footer-menuarea-nav-list__item"><a href="">お問い合わせ</a></li>
+            <li class="footer-menuarea-nav-list__item">
+              <a href="greeting.html">ごあいさつ</a>
+            </li>
+            <li class="footer-menuarea-nav-list__item">
+              <a href="information.html">医院紹介</a>
+            </li>
+            <li class="footer-menuarea-nav-list__item">
+              <a href="implant.html">インプラント治療</a>
+            </li>
+            <li class="footer-menuarea-nav-list__item">
+              <a href="access.html">アクセス</a>
+            </li>
+            <li class="footer-menuarea-nav-list__item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
           </ul>
         </nav>
         <a class="footer__logo" href="https://www.senya-implantcenter.com/" target="_blank" rel="noopener noreferrer">

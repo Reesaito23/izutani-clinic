@@ -2,6 +2,7 @@
   background-color: rgba($color: #887660, $alpha: 0.04);
   padding: 20px 5%;
   position: relative;
+  display: block;
   @include mq('desktop'){
     padding: 30px 5%;
   }
