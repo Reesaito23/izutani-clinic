@@ -925,6 +925,7 @@ header {
 
 .c-line-image {
   margin-top: 50px;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .c-line-image {

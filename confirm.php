@@ -67,7 +67,10 @@ if (isset($_POST["submit"])) {
 EOM;
 
   // 送信元のメールアドレスを変数fromEmailに格納
-  $fromEmail = "ree.rieru@gmail.com";
+  $fromEmail = "contact@izutanidc-himeji.com";
+
+  //２件メールを送信する
+  $to = "{$mail},{$fromEmail}";
 
   // 送信元の名前を変数fromNameに格納
   $fromName = "いずたにデンタルクリニック";
@@ -76,7 +79,7 @@ EOM;
   $header = "From: " . mb_encode_mimeheader($fromName) . "<{$fromEmail}>";
 
   // メール送信を行う
-  mb_send_mail($mail, $subject, $body, $header);
+  mb_send_mail($to, $subject, $body, $header);
 
   // サンクスページに画面遷移させる
   header("Location: index.html");
