@@ -299,6 +299,7 @@ header {
     right: 0;
     width: 75%;
     max-width: 800px;
+    max-height: 100px;
   }
   .fv-slide__nav.fv-Nav--fixed {
     position: fixed;
