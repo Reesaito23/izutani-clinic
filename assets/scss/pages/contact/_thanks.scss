@@ -1,0 +1,22 @@
+.thanks{
+  text-align: center;
+  padding: 50px 0;
+  @include mq('desktop'){
+    padding: 100px 0;
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 22px;
+    @include mq('desktop'){
+      font-size: 28px;
+    }
+  }
+  &__text{
+    margin-top: 2em;
+    font-size: 16px;
+    line-height: 2;
+    @include mq('desktop'){
+      font-size: 18px;
+    }
+  }
+}

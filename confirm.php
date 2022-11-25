@@ -82,7 +82,7 @@ EOM;
   mb_send_mail($to, $subject, $body, $header);
 
   // サンクスページに画面遷移させる
-  header("Location: index.html");
+  header("Location: thanks.html");
   exit;
 }
 ?>

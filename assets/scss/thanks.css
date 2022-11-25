@@ -1,0 +1,28 @@
+.thanks {
+  text-align: center;
+  padding: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .thanks {
+    padding: 100px 0;
+  }
+}
+.thanks__title {
+  font-weight: bold;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .thanks__title {
+    font-size: 28px;
+  }
+}
+.thanks__text {
+  margin-top: 2em;
+  font-size: 16px;
+  line-height: 2;
+}
+@media screen and (min-width: 768px) {
+  .thanks__text {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=thanks.css.map */
